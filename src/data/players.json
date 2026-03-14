@@ -333,7 +333,23 @@
     "rating": 80,
     "isGoalkeeper": false,
     "tier": "gold-rare",
-    "imageUrl": null
+    "imageUrl": "/players/Milos G.png"
+  },
+  {
+    "name": "Benjamin L",
+    "slug": "benjamin-l",
+    "goals": 1,
+    "assists": 4,
+    "wins": 16,
+    "losses": 14,
+    "attendance": 6,
+    "cleanSheets": 0,
+    "points": 43,
+    "ppt": 7.2,
+    "rating": 51,
+    "isGoalkeeper": false,
+    "tier": "bronze",
+    "imageUrl": "/players/Benjamin L.png"
   },
   {
     "name": "Albert A",
@@ -446,22 +462,6 @@
     "isGoalkeeper": true,
     "tier": "gold",
     "imageUrl": null
-  },
-  {
-    "name": "Benjamin L",
-    "slug": "benjamin-l",
-    "goals": 1,
-    "assists": 2,
-    "wins": 15,
-    "losses": 11,
-    "attendance": 5,
-    "cleanSheets": 0,
-    "points": 36,
-    "ppt": 7.2,
-    "rating": 51,
-    "isGoalkeeper": false,
-    "tier": "bronze",
-    "imageUrl": "/players/Benjamin L.png"
   },
   {
     "name": "Joel A",
@@ -685,22 +685,6 @@
     "rating": 66,
     "isGoalkeeper": false,
     "tier": "silver",
-    "imageUrl": null
-  },
-  {
-    "name": "Benji L",
-    "slug": "benji-l",
-    "goals": 0,
-    "assists": 2,
-    "wins": 1,
-    "losses": 3,
-    "attendance": 1,
-    "cleanSheets": 0,
-    "points": 8,
-    "ppt": 8,
-    "rating": 53,
-    "isGoalkeeper": false,
-    "tier": "bronze",
     "imageUrl": null
   },
   {
