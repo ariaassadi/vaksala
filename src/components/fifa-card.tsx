@@ -14,7 +14,6 @@ interface SizeConfig {
   flag: string;
   name: string;
   silhouette: string;
-  silhouettePx: number;
   statValue: string;
   statLabel: string;
   footerText: string;
@@ -25,11 +24,10 @@ const SIZE_MAP: Record<CardSize, SizeConfig> = {
   sm: {
     card: "w-[160px] h-[230px]",
     rating: "text-[26px]",
-    badge: "w-[20px] h-[24px]",
+    badge: "w-[22px] h-[24px]",
     flag: "w-[20px] h-[13px]",
-    name: "text-[10px] py-[3px]",
-    silhouette: "w-[64px] h-[72px]",
-    silhouettePx: 64,
+    name: "text-[11px] py-[3px]",
+    silhouette: "w-[70px] h-[80px]",
     statValue: "text-[15px]",
     statLabel: "text-[8px]",
     footerText: "text-[8px] pb-5",
@@ -38,11 +36,10 @@ const SIZE_MAP: Record<CardSize, SizeConfig> = {
   md: {
     card: "w-[200px] h-[290px]",
     rating: "text-[34px]",
-    badge: "w-[26px] h-[32px]",
+    badge: "w-[28px] h-[30px]",
     flag: "w-[26px] h-[16px]",
-    name: "text-[11px] py-[3px]",
-    silhouette: "w-[84px] h-[96px]",
-    silhouettePx: 84,
+    name: "text-[13px] py-[3px]",
+    silhouette: "w-[90px] h-[102px]",
     statValue: "text-[18px]",
     statLabel: "text-[9px]",
     footerText: "text-[9px] pb-6",
@@ -51,11 +48,10 @@ const SIZE_MAP: Record<CardSize, SizeConfig> = {
   lg: {
     card: "w-[300px] h-[430px]",
     rating: "text-[50px]",
-    badge: "w-[36px] h-[44px]",
+    badge: "w-[38px] h-[42px]",
     flag: "w-[36px] h-[23px]",
-    name: "text-[16px] py-1",
-    silhouette: "w-[120px] h-[136px]",
-    silhouettePx: 120,
+    name: "text-[18px] py-1",
+    silhouette: "w-[130px] h-[148px]",
     statValue: "text-[26px]",
     statLabel: "text-[12px]",
     footerText: "text-[12px] pb-8",
@@ -65,8 +61,8 @@ const SIZE_MAP: Record<CardSize, SizeConfig> = {
 
 // Face silhouette colors per tier/special type
 const FACE_COLORS: Record<string, string> = {
-  bronze: "#5C3D1A",
-  "bronze-rare": "#6B4A28",
+  bronze: "#4A2A14",
+  "bronze-rare": "#5C3820",
   silver: "#3A3A3A",
   "silver-rare": "#444444",
   gold: "#5A4210",
@@ -117,11 +113,11 @@ export function FifaCard({
         <span className={cn("font-black leading-none tracking-tight", s.rating, textColor)}>
           {rating}
         </span>
-        {/* Vaksala badge */}
+        {/* Vaksala SK badge */}
         <div className={cn("relative", s.badge)}>
           <Image
-            src="/vaksala.svg"
-            alt="Vaksala IF"
+            src="/vaksala.png"
+            alt="Vaksala SK"
             fill
             className="object-contain"
           />
@@ -137,28 +133,33 @@ export function FifaCard({
         </div>
       </div>
 
-      {/* Face silhouette - centered, positioned like a FIFA card portrait */}
-      <div className="flex flex-1 items-center justify-center w-full pt-[6%]">
+      {/* Face silhouette — bottom-aligned so it sits on the name banner line */}
+      <div className="flex flex-1 items-end justify-center w-full">
         <div className={cn("relative flex items-end justify-center overflow-hidden", s.silhouette)}>
-          {/* Subtle glow behind the face */}
-          <div className="absolute inset-0 rounded-full" style={{
-            background: `radial-gradient(ellipse at 50% 40%, ${faceColor}44 0%, transparent 70%)`,
-          }} />
-          {/* Portrait silhouette SVG */}
+          {/* Portrait silhouette — realistic male head, neck, shoulders */}
           <svg
-            viewBox="0 0 200 240"
+            viewBox="0 0 200 230"
             className="relative w-full h-full"
             style={{ color: faceColor }}
           >
-            {/* Head */}
-            <ellipse cx="100" cy="68" rx="42" ry="52" fill="currentColor" />
+            {/* Hair / top of head with texture */}
+            <path d="M68 72 Q68 28 100 22 Q132 28 132 72" fill="currentColor" />
+            <path d="M65 68 Q62 40 78 28 Q85 22 100 20 Q115 22 122 28 Q138 40 135 68" fill="currentColor" />
+            {/* Messy hair strands */}
+            <path d="M72 38 Q68 25 75 20 Q82 16 88 22" fill="currentColor" />
+            <path d="M112 22 Q118 16 125 20 Q132 25 128 38" fill="currentColor" />
+            <path d="M95 18 Q100 12 105 18" fill="currentColor" />
+            {/* Face / head oval */}
+            <ellipse cx="100" cy="82" rx="35" ry="45" fill="currentColor" />
             {/* Ears */}
-            <ellipse cx="55" cy="72" rx="8" ry="14" fill="currentColor" />
-            <ellipse cx="145" cy="72" rx="8" ry="14" fill="currentColor" />
+            <ellipse cx="63" cy="82" rx="7" ry="12" fill="currentColor" />
+            <ellipse cx="137" cy="82" rx="7" ry="12" fill="currentColor" />
             {/* Neck */}
-            <rect x="82" y="115" width="36" height="24" rx="4" fill="currentColor" />
-            {/* Shoulders and torso */}
-            <path d="M82 132 Q80 132 60 140 Q20 155 5 180 L5 260 L195 260 L195 180 Q180 155 140 140 Q120 132 118 132 Z" fill="currentColor" />
+            <path d="M85 124 L85 145 Q85 150 90 152 L110 152 Q115 150 115 145 L115 124" fill="currentColor" />
+            {/* Shoulders — wider, natural curve */}
+            <path d="M90 150 Q88 150 70 156 Q40 166 15 185 L5 195 L5 240 L195 240 L195 195 L185 185 Q160 166 130 156 Q112 150 110 150 Z" fill="currentColor" />
+            {/* Collar / shirt neckline */}
+            <path d="M90 150 Q95 160 100 164 Q105 160 110 150" fill="currentColor" opacity="0.8" />
           </svg>
         </div>
       </div>

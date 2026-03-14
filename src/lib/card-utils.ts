@@ -46,16 +46,16 @@ export const TIER_COLORS: Record<
   { bg: string; text: string; accent: string; silhouette: string }
 > = {
   bronze: {
-    bg: "from-amber-900/80 to-amber-800/60",
-    text: "text-amber-950",
-    accent: "shadow-amber-700/30",
-    silhouette: "#3D2B0F",
+    bg: "from-[#6B3A1F]/90 to-[#8B5E3C]/70",
+    text: "text-[#2C1810]",
+    accent: "shadow-[#8B5E3C]/30",
+    silhouette: "#4A2A14",
   },
   "bronze-rare": {
-    bg: "from-amber-700/80 to-amber-600/60",
-    text: "text-amber-950",
-    accent: "shadow-amber-500/40",
-    silhouette: "#4A3520",
+    bg: "from-[#8B5A3C]/90 to-[#A67856]/70",
+    text: "text-[#2C1810]",
+    accent: "shadow-[#A67856]/40",
+    silhouette: "#5C3820",
   },
   silver: {
     bg: "from-gray-400/80 to-gray-300/60",
