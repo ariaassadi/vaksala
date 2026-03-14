@@ -26,8 +26,9 @@ export default function RootLayout({
   return (
     <html lang="sv" className="dark">
       <body className={`${inter.variable} ${oswald.variable} bg-zinc-950 text-zinc-100 antialiased`}>
-        {/* Animated background bubbles */}
+        {/* Animated background */}
         <div className="bubbles-container" aria-hidden="true">
+          {/* Floating bubbles */}
           <div className="bubble" />
           <div className="bubble" />
           <div className="bubble" />
@@ -38,6 +39,18 @@ export default function RootLayout({
           <div className="bubble" />
           <div className="bubble" />
           <div className="bubble" />
+          {/* Glowing orbs */}
+          <div className="glow-orb" />
+          <div className="glow-orb" />
+          <div className="glow-orb" />
+          <div className="glow-orb" />
+          {/* Floating particles */}
+          <div className="particle" />
+          <div className="particle" />
+          <div className="particle" />
+          <div className="particle" />
+          <div className="particle" />
+          <div className="particle" />
         </div>
         <Navbar />
         <div className="relative z-10">

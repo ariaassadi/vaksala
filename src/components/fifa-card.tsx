@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { Player, CardStats, SpecialCardType } from "@/lib/types";
 import { TIER_COLORS, SPECIAL_COLORS, getCardStats } from "@/lib/card-utils";
@@ -13,6 +14,7 @@ interface SizeConfig {
   flag: string;
   name: string;
   silhouette: string;
+  silhouettePx: number;
   statValue: string;
   statLabel: string;
   footerText: string;
@@ -23,10 +25,11 @@ const SIZE_MAP: Record<CardSize, SizeConfig> = {
   sm: {
     card: "w-[160px] h-[230px]",
     rating: "text-[26px]",
-    badge: "w-[14px] h-[14px] text-[4.5px]",
-    flag: "w-[14px] h-[9px]",
+    badge: "w-[20px] h-[24px]",
+    flag: "w-[20px] h-[13px]",
     name: "text-[10px] py-[3px]",
-    silhouette: "w-[56px] h-[56px]",
+    silhouette: "w-[64px] h-[72px]",
+    silhouettePx: 64,
     statValue: "text-[15px]",
     statLabel: "text-[8px]",
     footerText: "text-[8px] pb-5",
@@ -35,10 +38,11 @@ const SIZE_MAP: Record<CardSize, SizeConfig> = {
   md: {
     card: "w-[200px] h-[290px]",
     rating: "text-[34px]",
-    badge: "w-[18px] h-[18px] text-[5.5px]",
-    flag: "w-[18px] h-[11px]",
+    badge: "w-[26px] h-[32px]",
+    flag: "w-[26px] h-[16px]",
     name: "text-[11px] py-[3px]",
-    silhouette: "w-[76px] h-[76px]",
+    silhouette: "w-[84px] h-[96px]",
+    silhouettePx: 84,
     statValue: "text-[18px]",
     statLabel: "text-[9px]",
     footerText: "text-[9px] pb-6",
@@ -47,15 +51,32 @@ const SIZE_MAP: Record<CardSize, SizeConfig> = {
   lg: {
     card: "w-[300px] h-[430px]",
     rating: "text-[50px]",
-    badge: "w-[24px] h-[24px] text-[7px]",
-    flag: "w-[24px] h-[15px]",
+    badge: "w-[36px] h-[44px]",
+    flag: "w-[36px] h-[23px]",
     name: "text-[16px] py-1",
-    silhouette: "w-[110px] h-[110px]",
+    silhouette: "w-[120px] h-[136px]",
+    silhouettePx: 120,
     statValue: "text-[26px]",
     statLabel: "text-[12px]",
     footerText: "text-[12px] pb-8",
     gap: "gap-1",
   },
+};
+
+// Face silhouette colors per tier/special type
+const FACE_COLORS: Record<string, string> = {
+  bronze: "#5C3D1A",
+  "bronze-rare": "#6B4A28",
+  silver: "#3A3A3A",
+  "silver-rare": "#444444",
+  gold: "#5A4210",
+  "gold-rare": "#6B5215",
+  motm: "rgba(255,255,255,0.2)",
+  totw: "rgba(255,255,255,0.2)",
+  rb: "rgba(255,255,255,0.2)",
+  tots: "rgba(255,255,255,0.2)",
+  hero: "rgba(255,255,255,0.2)",
+  icon: "#6B5215",
 };
 
 interface FifaCardProps {
@@ -83,7 +104,7 @@ export function FifaCard({
   const rating = specialRating ?? player.rating;
   const stats = specialStats ?? getCardStats(player);
   const footerLabel = specialType ? specialType.toUpperCase() : "BASIC";
-  const silhouetteColor = specialType ? "rgba(255,255,255,0.15)" : TIER_COLORS[player.tier].silhouette;
+  const faceColor = specialType ? FACE_COLORS[specialType] : FACE_COLORS[player.tier];
 
   return (
     <CardBackground
@@ -96,33 +117,48 @@ export function FifaCard({
         <span className={cn("font-black leading-none tracking-tight", s.rating, textColor)}>
           {rating}
         </span>
-        {/* VSK badge */}
-        <div
-          className={cn(
-            "rounded-full flex items-center justify-center font-black border border-current/60",
-            textColor, s.badge
-          )}
-        >
-          VSK
+        {/* Vaksala badge */}
+        <div className={cn("relative", s.badge)}>
+          <Image
+            src="/vaksala.svg"
+            alt="Vaksala IF"
+            fill
+            className="object-contain"
+          />
         </div>
         {/* Swedish flag */}
-        <div className={cn("relative overflow-hidden rounded-[1px]", s.flag)} style={{ background: "#006AA7" }}>
-          <div className="absolute" style={{ top: "35%", left: 0, right: 0, height: "30%", background: "#FECC02" }} />
-          <div className="absolute" style={{ left: "30%", top: 0, bottom: 0, width: "20%", background: "#FECC02" }} />
+        <div className={cn("relative overflow-hidden rounded-[2px]", s.flag)}>
+          <Image
+            src="/sverige.png"
+            alt="Sverige"
+            fill
+            className="object-cover"
+          />
         </div>
       </div>
 
-      {/* Face silhouette - centered in card body */}
-      <div className="flex flex-1 items-center justify-center w-full pt-[10%]">
-        <div className={cn("rounded-full flex items-center justify-center", s.silhouette)}
-          style={{
-            background: `radial-gradient(ellipse at 50% 40%, ${silhouetteColor}88 0%, ${silhouetteColor}22 70%, transparent 100%)`,
-          }}
-        >
-          {/* Head + shoulders silhouette */}
-          <svg viewBox="0 0 80 80" className="w-[70%] h-[70%] opacity-40" fill={silhouetteColor}>
-            <circle cx="40" cy="28" r="16" />
-            <ellipse cx="40" cy="68" rx="26" ry="18" />
+      {/* Face silhouette - centered, positioned like a FIFA card portrait */}
+      <div className="flex flex-1 items-center justify-center w-full pt-[6%]">
+        <div className={cn("relative flex items-end justify-center overflow-hidden", s.silhouette)}>
+          {/* Subtle glow behind the face */}
+          <div className="absolute inset-0 rounded-full" style={{
+            background: `radial-gradient(ellipse at 50% 40%, ${faceColor}44 0%, transparent 70%)`,
+          }} />
+          {/* Portrait silhouette SVG */}
+          <svg
+            viewBox="0 0 200 240"
+            className="relative w-full h-full"
+            style={{ color: faceColor }}
+          >
+            {/* Head */}
+            <ellipse cx="100" cy="68" rx="42" ry="52" fill="currentColor" />
+            {/* Ears */}
+            <ellipse cx="55" cy="72" rx="8" ry="14" fill="currentColor" />
+            <ellipse cx="145" cy="72" rx="8" ry="14" fill="currentColor" />
+            {/* Neck */}
+            <rect x="82" y="115" width="36" height="24" rx="4" fill="currentColor" />
+            {/* Shoulders and torso */}
+            <path d="M82 132 Q80 132 60 140 Q20 155 5 180 L5 260 L195 260 L195 180 Q180 155 140 140 Q120 132 118 132 Z" fill="currentColor" />
           </svg>
         </div>
       </div>
