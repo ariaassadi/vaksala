@@ -40,5 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Local data files
-src/data/
+# Local data files (src/data/ committed - generated from Excel by parse-data script)

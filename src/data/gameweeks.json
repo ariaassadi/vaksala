@@ -1,0 +1,2044 @@
+[
+  {
+    "number": 1,
+    "players": [
+      {
+        "gameweek": 1,
+        "player": "Samuel P",
+        "goals": 2,
+        "assists": 0,
+        "wins": 4,
+        "losses": 5
+      },
+      {
+        "gameweek": 1,
+        "player": "Daniel K",
+        "goals": 0,
+        "assists": 1,
+        "wins": 5,
+        "losses": 4
+      },
+      {
+        "gameweek": 1,
+        "player": "Yvan I",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 1,
+        "player": "Albert A",
+        "goals": 0,
+        "assists": 0,
+        "wins": 4,
+        "losses": 5
+      },
+      {
+        "gameweek": 1,
+        "player": "Shahir I",
+        "goals": 0,
+        "assists": 0,
+        "wins": 5,
+        "losses": 4
+      },
+      {
+        "gameweek": 1,
+        "player": "Amiin M",
+        "goals": 3,
+        "assists": 3,
+        "wins": 4,
+        "losses": 5
+      },
+      {
+        "gameweek": 1,
+        "player": "Milos G",
+        "goals": 5,
+        "assists": 3,
+        "wins": 5,
+        "losses": 4
+      },
+      {
+        "gameweek": 1,
+        "player": "Aria A",
+        "goals": 0,
+        "assists": 1,
+        "wins": 4,
+        "losses": 5
+      },
+      {
+        "gameweek": 1,
+        "player": "Oskar R",
+        "goals": 2,
+        "assists": 1,
+        "wins": 5,
+        "losses": 4
+      },
+      {
+        "gameweek": 1,
+        "player": "Oliver G",
+        "goals": 0,
+        "assists": 0,
+        "wins": 4,
+        "losses": 5
+      },
+      {
+        "gameweek": 1,
+        "player": "Jakob S",
+        "goals": 2,
+        "assists": 3,
+        "wins": 5,
+        "losses": 4
+      },
+      {
+        "gameweek": 1,
+        "player": "Oskar B",
+        "goals": 2,
+        "assists": 2,
+        "wins": 4,
+        "losses": 5
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "players": [
+      {
+        "gameweek": 2,
+        "player": "Samuel P",
+        "goals": 1,
+        "assists": 4,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 2,
+        "player": "Branislav D",
+        "goals": 5,
+        "assists": 2,
+        "wins": 5,
+        "losses": 1
+      },
+      {
+        "gameweek": 2,
+        "player": "Aria A",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 2,
+        "player": "Emil F",
+        "goals": 4,
+        "assists": 0,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 2,
+        "player": "Oliver G",
+        "goals": 3,
+        "assists": 3,
+        "wins": 5,
+        "losses": 1
+      },
+      {
+        "gameweek": 2,
+        "player": "Pontus S",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 2,
+        "player": "Isak L",
+        "goals": 0,
+        "assists": 1,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 2,
+        "player": "Oskar R",
+        "goals": 1,
+        "assists": 2,
+        "wins": 5,
+        "losses": 1
+      },
+      {
+        "gameweek": 2,
+        "player": "Jesper N",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 2,
+        "player": "Daniel K",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 2,
+        "player": "Magnus D",
+        "goals": 1,
+        "assists": 3,
+        "wins": 5,
+        "losses": 1
+      },
+      {
+        "gameweek": 2,
+        "player": "Jakob S",
+        "goals": 1,
+        "assists": 1,
+        "wins": 1,
+        "losses": 5
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "players": [
+      {
+        "gameweek": 3,
+        "player": "Albert A",
+        "goals": 1,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 3,
+        "player": "Shoresh A",
+        "goals": 2,
+        "assists": 1,
+        "wins": 6,
+        "losses": 0
+      },
+      {
+        "gameweek": 3,
+        "player": "Casper W",
+        "goals": 1,
+        "assists": 0,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 3,
+        "player": "Shahir I",
+        "goals": 0,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 3,
+        "player": "Fredrik C",
+        "goals": 3,
+        "assists": 4,
+        "wins": 6,
+        "losses": 0
+      },
+      {
+        "gameweek": 3,
+        "player": "Immanuel A",
+        "goals": 1,
+        "assists": 1,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 3,
+        "player": "Eskil K",
+        "goals": 4,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 3,
+        "player": "Branislav D",
+        "goals": 4,
+        "assists": 3,
+        "wins": 6,
+        "losses": 0
+      },
+      {
+        "gameweek": 3,
+        "player": "Oliver G",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 3,
+        "player": "Oskar R",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 3,
+        "player": "Jakob S",
+        "goals": 7,
+        "assists": 2,
+        "wins": 6,
+        "losses": 0
+      },
+      {
+        "gameweek": 3,
+        "player": "William X",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 3,
+        "player": "Pontus B",
+        "goals": 3,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 3,
+        "player": "Sebastian E",
+        "goals": 0,
+        "assists": 2,
+        "wins": 6,
+        "losses": 0
+      },
+      {
+        "gameweek": 3,
+        "player": "Yvan I",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 7
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "players": [
+      {
+        "gameweek": 4,
+        "player": "Benjamin L",
+        "goals": 0,
+        "assists": 2,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 4,
+        "player": "Oliver G",
+        "goals": 4,
+        "assists": 0,
+        "wins": 1,
+        "losses": 7
+      },
+      {
+        "gameweek": 4,
+        "player": "Daniel K",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 4,
+        "player": "Branislav D",
+        "goals": 1,
+        "assists": 3,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 4,
+        "player": "Mattias R",
+        "goals": 0,
+        "assists": 2,
+        "wins": 1,
+        "losses": 7
+      },
+      {
+        "gameweek": 4,
+        "player": "Dennis F",
+        "goals": 3,
+        "assists": 2,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 4,
+        "player": "Samuel P",
+        "goals": 0,
+        "assists": 2,
+        "wins": 1,
+        "losses": 7
+      },
+      {
+        "gameweek": 4,
+        "player": "Emil F",
+        "goals": 5,
+        "assists": 3,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 4,
+        "player": "Casper W",
+        "goals": 1,
+        "assists": 1,
+        "wins": 1,
+        "losses": 7
+      },
+      {
+        "gameweek": 4,
+        "player": "Jakob S",
+        "goals": 5,
+        "assists": 3,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 4,
+        "player": "Shahir I",
+        "goals": 1,
+        "assists": 1,
+        "wins": 7,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "players": [
+      {
+        "gameweek": 5,
+        "player": "Aria A",
+        "goals": 1,
+        "assists": 0,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Albert A",
+        "goals": 0,
+        "assists": 1,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Daniel K",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 5,
+        "player": "Jakob S",
+        "goals": 4,
+        "assists": 1,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Benjamin L",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Pontus S",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 5,
+        "player": "Karvan X",
+        "goals": 1,
+        "assists": 0,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Daniel Ö",
+        "goals": 1,
+        "assists": 1,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Oliver G",
+        "goals": 0,
+        "assists": 1,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Milos G",
+        "goals": 3,
+        "assists": 0,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Shahir I",
+        "goals": 0,
+        "assists": 2,
+        "wins": 1,
+        "losses": 1
+      },
+      {
+        "gameweek": 5,
+        "player": "Oskar R",
+        "goals": 1,
+        "assists": 3,
+        "wins": 1,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "players": [
+      {
+        "gameweek": 6,
+        "player": "Ivan N",
+        "goals": 3,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 6,
+        "player": "Casper W",
+        "goals": 3,
+        "assists": 0,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 6,
+        "player": "Albert A",
+        "goals": 0,
+        "assists": 0,
+        "wins": 2,
+        "losses": 3
+      },
+      {
+        "gameweek": 6,
+        "player": "Pontus S",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 6,
+        "player": "Oliver G",
+        "goals": 2,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 6,
+        "player": "Sebastian E",
+        "goals": 1,
+        "assists": 1,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 6,
+        "player": "Aria A",
+        "goals": 1,
+        "assists": 1,
+        "wins": 2,
+        "losses": 3
+      },
+      {
+        "gameweek": 6,
+        "player": "Oskar R",
+        "goals": 0,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 6,
+        "player": "Pontus B",
+        "goals": 3,
+        "assists": 2,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 6,
+        "player": "Jakob S",
+        "goals": 3,
+        "assists": 0,
+        "wins": 2,
+        "losses": 3
+      },
+      {
+        "gameweek": 6,
+        "player": "Shahir I",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 6,
+        "player": "Shoresh A",
+        "goals": 1,
+        "assists": 5,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 6,
+        "player": "Samuel P",
+        "goals": 1,
+        "assists": 3,
+        "wins": 2,
+        "losses": 3
+      },
+      {
+        "gameweek": 6,
+        "player": "Daniel K",
+        "goals": 1,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "players": [
+      {
+        "gameweek": 7,
+        "player": "Aria A",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "Casper W",
+        "goals": 2,
+        "assists": 0,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 7,
+        "player": "Benjamin L",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "Pontus S",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 7,
+        "player": "Daniel K",
+        "goals": 0,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "George T",
+        "goals": 0,
+        "assists": 1,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 7,
+        "player": "Dennis F",
+        "goals": 2,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "Eskil K",
+        "goals": 2,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "Pontus B",
+        "goals": 2,
+        "assists": 4,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 7,
+        "player": "Ivan N",
+        "goals": 3,
+        "assists": 6,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "Jakob S",
+        "goals": 2,
+        "assists": 5,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "Sebastian E",
+        "goals": 2,
+        "assists": 1,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 7,
+        "player": "Oskar R",
+        "goals": 4,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "Oliver G",
+        "goals": 5,
+        "assists": 3,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 7,
+        "player": "Yvan I",
+        "goals": 2,
+        "assists": 2,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 7,
+        "player": "Shoresh A",
+        "goals": 3,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "players": [
+      {
+        "gameweek": 8,
+        "player": "Daniel K",
+        "goals": 4,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 8,
+        "player": "Daniel Ö",
+        "goals": 2,
+        "assists": 2,
+        "wins": 1,
+        "losses": 4
+      },
+      {
+        "gameweek": 8,
+        "player": "Aria A",
+        "goals": 3,
+        "assists": 1,
+        "wins": 3,
+        "losses": 1
+      },
+      {
+        "gameweek": 8,
+        "player": "Emil A",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 8,
+        "player": "Moaaz T",
+        "goals": 0,
+        "assists": 1,
+        "wins": 1,
+        "losses": 4
+      },
+      {
+        "gameweek": 8,
+        "player": "Jakob S",
+        "goals": 2,
+        "assists": 6,
+        "wins": 3,
+        "losses": 1
+      },
+      {
+        "gameweek": 8,
+        "player": "George T",
+        "goals": 1,
+        "assists": 5,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 8,
+        "player": "Sebastian E",
+        "goals": 3,
+        "assists": 1,
+        "wins": 1,
+        "losses": 4
+      },
+      {
+        "gameweek": 8,
+        "player": "Leo F",
+        "goals": 5,
+        "assists": 3,
+        "wins": 3,
+        "losses": 1
+      },
+      {
+        "gameweek": 8,
+        "player": "Ivan N",
+        "goals": 2,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 8,
+        "player": "Yvan I",
+        "goals": 1,
+        "assists": 2,
+        "wins": 1,
+        "losses": 4
+      },
+      {
+        "gameweek": 8,
+        "player": "Oliver G",
+        "goals": 3,
+        "assists": 2,
+        "wins": 3,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "players": [
+      {
+        "gameweek": 9,
+        "player": "Albert A",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 9,
+        "player": "Achillie X",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Emil A",
+        "goals": 1,
+        "assists": 0,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Aria A",
+        "goals": 0,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 9,
+        "player": "Daniel K",
+        "goals": 0,
+        "assists": 2,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "George",
+        "goals": 1,
+        "assists": 0,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Benjamin L",
+        "goals": 0,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 9,
+        "player": "Dennis F",
+        "goals": 1,
+        "assists": 1,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Henrik O",
+        "goals": 2,
+        "assists": 0,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Jakob S",
+        "goals": 1,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 9,
+        "player": "Pontus B",
+        "goals": 1,
+        "assists": 0,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Ivan N",
+        "goals": 1,
+        "assists": 1,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Leo F",
+        "goals": 2,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 9,
+        "player": "Sebastian E",
+        "goals": 1,
+        "assists": 0,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Joel C",
+        "goals": 0,
+        "assists": 3,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Oliver G",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 9,
+        "player": "Yvan I",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 9,
+        "player": "Oskar R",
+        "goals": 1,
+        "assists": 2,
+        "wins": 4,
+        "losses": 3
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "players": [
+      {
+        "gameweek": 10,
+        "player": "Aria A",
+        "goals": 0,
+        "assists": 0,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 10,
+        "player": "Hampus W",
+        "goals": 0,
+        "assists": 0,
+        "wins": 3,
+        "losses": 1
+      },
+      {
+        "gameweek": 10,
+        "player": "Daniel K",
+        "goals": 3,
+        "assists": 1,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 10,
+        "player": "Pontus S",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 10,
+        "player": "Casper W",
+        "goals": 0,
+        "assists": 0,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 10,
+        "player": "Jakob S",
+        "goals": 2,
+        "assists": 0,
+        "wins": 3,
+        "losses": 1
+      },
+      {
+        "gameweek": 10,
+        "player": "Leo F",
+        "goals": 2,
+        "assists": 1,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 10,
+        "player": "Jesper N",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 10,
+        "player": "Eskil K",
+        "goals": 1,
+        "assists": 0,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 10,
+        "player": "Yvan I",
+        "goals": 3,
+        "assists": 1,
+        "wins": 3,
+        "losses": 1
+      },
+      {
+        "gameweek": 10,
+        "player": "Oskar R",
+        "goals": 0,
+        "assists": 1,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 10,
+        "player": "Ivan N",
+        "goals": 2,
+        "assists": 1,
+        "wins": 2,
+        "losses": 4
+      },
+      {
+        "gameweek": 10,
+        "player": "Oliver G",
+        "goals": 1,
+        "assists": 3,
+        "wins": 3,
+        "losses": 1
+      },
+      {
+        "gameweek": 10,
+        "player": "Shahir I",
+        "goals": 0,
+        "assists": 0,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 10,
+        "player": "Sebastian E",
+        "goals": 0,
+        "assists": 1,
+        "wins": 2,
+        "losses": 4
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "players": [
+      {
+        "gameweek": 11,
+        "player": "Shahir I",
+        "goals": 0,
+        "assists": 1,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 11,
+        "player": "Sebastian E",
+        "goals": 3,
+        "assists": 2,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 11,
+        "player": "Eskil K",
+        "goals": 2,
+        "assists": 1,
+        "wins": 5,
+        "losses": 1
+      },
+      {
+        "gameweek": 11,
+        "player": "Pontus S",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 11,
+        "player": "Benjamin L",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 11,
+        "player": "Ivan N",
+        "goals": 0,
+        "assists": 3,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 11,
+        "player": "Jakob S",
+        "goals": 1,
+        "assists": 4,
+        "wins": 5,
+        "losses": 1
+      },
+      {
+        "gameweek": 11,
+        "player": "Oskar R",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 11,
+        "player": "Daniel K",
+        "goals": 2,
+        "assists": 0,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 11,
+        "player": "Dennis F",
+        "goals": 3,
+        "assists": 0,
+        "wins": 5,
+        "losses": 1
+      },
+      {
+        "gameweek": 11,
+        "player": "Henrik O",
+        "goals": 1,
+        "assists": 0,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 11,
+        "player": "Shoresh A",
+        "goals": 0,
+        "assists": 0,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 11,
+        "player": "Georgios T",
+        "goals": 1,
+        "assists": 1,
+        "wins": 5,
+        "losses": 1
+      },
+      {
+        "gameweek": 11,
+        "player": "Yvan I",
+        "goals": 1,
+        "assists": 1,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 11,
+        "player": "Oliver G",
+        "goals": 2,
+        "assists": 0,
+        "wins": 3,
+        "losses": 3
+      },
+      {
+        "gameweek": 11,
+        "player": "Casper W",
+        "goals": 1,
+        "assists": 0,
+        "wins": 5,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "players": [
+      {
+        "gameweek": 12,
+        "player": "Ivan N",
+        "goals": 1,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 12,
+        "player": "Benji L",
+        "goals": 0,
+        "assists": 2,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 12,
+        "player": "Eskil K",
+        "goals": 2,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 12,
+        "player": "Aria A",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 12,
+        "player": "Jesper H",
+        "goals": 0,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 12,
+        "player": "Dennis F",
+        "goals": 0,
+        "assists": 1,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 12,
+        "player": "Isak L",
+        "goals": 0,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 12,
+        "player": "Oliver G",
+        "goals": 2,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 12,
+        "player": "Oskar R",
+        "goals": 1,
+        "assists": 1,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 12,
+        "player": "Jakob S",
+        "goals": 0,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 12,
+        "player": "Pelle A",
+        "goals": 1,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 12,
+        "player": "Yvan I",
+        "goals": 3,
+        "assists": 0,
+        "wins": 1,
+        "losses": 3
+      },
+      {
+        "gameweek": 12,
+        "player": "Samuel P",
+        "goals": 3,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 12,
+        "player": "Shahir I",
+        "goals": 2,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "players": [
+      {
+        "gameweek": 13,
+        "player": "Daniel K",
+        "goals": 3,
+        "assists": 0,
+        "wins": 5,
+        "losses": 3
+      },
+      {
+        "gameweek": 13,
+        "player": "Samuel P",
+        "goals": 0,
+        "assists": 1,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 13,
+        "player": "Henrik O",
+        "goals": 2,
+        "assists": 1,
+        "wins": 5,
+        "losses": 3
+      },
+      {
+        "gameweek": 13,
+        "player": "Dennis F",
+        "goals": 3,
+        "assists": 0,
+        "wins": 5,
+        "losses": 3
+      },
+      {
+        "gameweek": 13,
+        "player": "Yvan I",
+        "goals": 1,
+        "assists": 0,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 13,
+        "player": "Joel A",
+        "goals": 2,
+        "assists": 2,
+        "wins": 5,
+        "losses": 3
+      },
+      {
+        "gameweek": 13,
+        "player": "George",
+        "goals": 0,
+        "assists": 1,
+        "wins": 5,
+        "losses": 3
+      },
+      {
+        "gameweek": 13,
+        "player": "Pelle A",
+        "goals": 2,
+        "assists": 0,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 13,
+        "player": "Isak L",
+        "goals": 3,
+        "assists": 2,
+        "wins": 5,
+        "losses": 3
+      },
+      {
+        "gameweek": 13,
+        "player": "Ivan N",
+        "goals": 1,
+        "assists": 5,
+        "wins": 5,
+        "losses": 3
+      },
+      {
+        "gameweek": 13,
+        "player": "Jesper H",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 5
+      },
+      {
+        "gameweek": 13,
+        "player": "Oskar R",
+        "goals": 2,
+        "assists": 4,
+        "wins": 5,
+        "losses": 3
+      },
+      {
+        "gameweek": 13,
+        "player": "Daniel Ö",
+        "goals": 5,
+        "assists": 2,
+        "wins": 5,
+        "losses": 3
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "players": [
+      {
+        "gameweek": 14,
+        "player": "Oskar R",
+        "goals": 1,
+        "assists": 3,
+        "wins": 6,
+        "losses": 1
+      },
+      {
+        "gameweek": 14,
+        "player": "Daniel K",
+        "goals": 1,
+        "assists": 0,
+        "wins": 1,
+        "losses": 6
+      },
+      {
+        "gameweek": 14,
+        "player": "Pelle A",
+        "goals": 2,
+        "assists": 0,
+        "wins": 6,
+        "losses": 1
+      },
+      {
+        "gameweek": 14,
+        "player": "Isak L",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 6
+      },
+      {
+        "gameweek": 14,
+        "player": "Samuel P",
+        "goals": 1,
+        "assists": 3,
+        "wins": 6,
+        "losses": 1
+      },
+      {
+        "gameweek": 14,
+        "player": "Oliver G",
+        "goals": 1,
+        "assists": 1,
+        "wins": 1,
+        "losses": 6
+      },
+      {
+        "gameweek": 14,
+        "player": "Joel A",
+        "goals": 3,
+        "assists": 2,
+        "wins": 6,
+        "losses": 1
+      },
+      {
+        "gameweek": 14,
+        "player": "Yvan I",
+        "goals": 0,
+        "assists": 0,
+        "wins": 1,
+        "losses": 6
+      },
+      {
+        "gameweek": 14,
+        "player": "Aria A",
+        "goals": 2,
+        "assists": 0,
+        "wins": 6,
+        "losses": 1
+      },
+      {
+        "gameweek": 14,
+        "player": "Emil A",
+        "goals": 1,
+        "assists": 1,
+        "wins": 1,
+        "losses": 6
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "players": [
+      {
+        "gameweek": 15,
+        "player": "Branislav D",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 15,
+        "player": "Daniel Ö",
+        "goals": 4,
+        "assists": 2,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 15,
+        "player": "Aria A",
+        "goals": 0,
+        "assists": 1,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 15,
+        "player": "Isak L",
+        "goals": 1,
+        "assists": 2,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 15,
+        "player": "Emil A",
+        "goals": 0,
+        "assists": 2,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 15,
+        "player": "Henrik O",
+        "goals": 1,
+        "assists": 3,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 15,
+        "player": "Ivan N",
+        "goals": 3,
+        "assists": 1,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 15,
+        "player": "Joel A",
+        "goals": 3,
+        "assists": 0,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 15,
+        "player": "Lucas S",
+        "goals": 5,
+        "assists": 2,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 15,
+        "player": "Jesper H",
+        "goals": 0,
+        "assists": 0,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 15,
+        "player": "Oliver G",
+        "goals": 0,
+        "assists": 1,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 15,
+        "player": "Milos G",
+        "goals": 6,
+        "assists": 6,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 15,
+        "player": "Pelle A",
+        "goals": 1,
+        "assists": 2,
+        "wins": 0,
+        "losses": 7
+      },
+      {
+        "gameweek": 15,
+        "player": "Oskar R",
+        "goals": 1,
+        "assists": 2,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 15,
+        "player": "Samuel P",
+        "goals": 0,
+        "assists": 5,
+        "wins": 7,
+        "losses": 1
+      },
+      {
+        "gameweek": 15,
+        "player": "Jakob S",
+        "goals": 6,
+        "assists": 3,
+        "wins": 7,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "players": [
+      {
+        "gameweek": 16,
+        "player": "Albert A",
+        "goals": 1,
+        "assists": 0,
+        "wins": 0,
+        "losses": 6
+      },
+      {
+        "gameweek": 16,
+        "player": "George T",
+        "goals": 2,
+        "assists": 1,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 16,
+        "player": "Daniel K",
+        "goals": 8,
+        "assists": 7,
+        "wins": 6,
+        "losses": 1
+      },
+      {
+        "gameweek": 16,
+        "player": "Aria A",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 16,
+        "player": "Jakob S",
+        "goals": 0,
+        "assists": 2,
+        "wins": 0,
+        "losses": 6
+      },
+      {
+        "gameweek": 16,
+        "player": "Ivan N",
+        "goals": 5,
+        "assists": 0,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 16,
+        "player": "Daniel Ö",
+        "goals": 9,
+        "assists": 3,
+        "wins": 6,
+        "losses": 1
+      },
+      {
+        "gameweek": 16,
+        "player": "Pontus S",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 16,
+        "player": "Samuel P",
+        "goals": 0,
+        "assists": 4,
+        "wins": 0,
+        "losses": 6
+      },
+      {
+        "gameweek": 16,
+        "player": "Mattias X",
+        "goals": 1,
+        "assists": 0,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 16,
+        "player": "Joel C",
+        "goals": 1,
+        "assists": 8,
+        "wins": 6,
+        "losses": 1
+      },
+      {
+        "gameweek": 16,
+        "player": "Jesper N",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 16,
+        "player": "Yvan I",
+        "goals": 3,
+        "assists": 0,
+        "wins": 0,
+        "losses": 6
+      },
+      {
+        "gameweek": 16,
+        "player": "Oliver G",
+        "goals": 0,
+        "assists": 2,
+        "wins": 4,
+        "losses": 3
+      },
+      {
+        "gameweek": 16,
+        "player": "Shahir I",
+        "goals": 5,
+        "assists": 3,
+        "wins": 6,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "players": [
+      {
+        "gameweek": 17,
+        "player": "Dennis F",
+        "goals": 5,
+        "assists": 1,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 17,
+        "player": "Daniel Ö",
+        "goals": 5,
+        "assists": 2,
+        "wins": 2,
+        "losses": 3
+      },
+      {
+        "gameweek": 17,
+        "player": "Daniel K",
+        "goals": 2,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 17,
+        "player": "Emil A",
+        "goals": 0,
+        "assists": 3,
+        "wins": 2,
+        "losses": 3
+      },
+      {
+        "gameweek": 17,
+        "player": "Jakob S",
+        "goals": 0,
+        "assists": 4,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 17,
+        "player": "Ivan N",
+        "goals": 2,
+        "assists": 2,
+        "wins": 2,
+        "losses": 3
+      },
+      {
+        "gameweek": 17,
+        "player": "Oliver G",
+        "goals": 1,
+        "assists": 2,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 17,
+        "player": "Joel C",
+        "goals": 3,
+        "assists": 2,
+        "wins": 2,
+        "losses": 3
+      },
+      {
+        "gameweek": 17,
+        "player": "Isak L",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "gameweek": 17,
+        "player": "Yvan I",
+        "goals": 2,
+        "assists": 3,
+        "wins": 2,
+        "losses": 3
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "players": [
+      {
+        "gameweek": 18,
+        "player": "Samuel P",
+        "goals": 3,
+        "assists": 5,
+        "wins": 3,
+        "losses": 5
+      },
+      {
+        "gameweek": 18,
+        "player": "Dennis F",
+        "goals": 5,
+        "assists": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      {
+        "gameweek": 18,
+        "player": "Isak L",
+        "goals": 8,
+        "assists": 5,
+        "wins": 4,
+        "losses": 2
+      },
+      {
+        "gameweek": 18,
+        "player": "Pontus S",
+        "goals": 0,
+        "assists": 3,
+        "wins": 0,
+        "losses": 0
+      },
+      {
+        "gameweek": 18,
+        "player": "Ivan N",
+        "goals": 4,
+        "assists": 1,
+        "wins": 3,
+        "losses": 5
+      },
+      {
+        "gameweek": 18,
+        "player": "Aria A",
+        "goals": 3,
+        "assists": 4,
+        "wins": 2,
+        "losses": 2
+      },
+      {
+        "gameweek": 18,
+        "player": "Oliver G",
+        "goals": 3,
+        "assists": 2,
+        "wins": 4,
+        "losses": 2
+      },
+      {
+        "gameweek": 18,
+        "player": "George T",
+        "goals": 1,
+        "assists": 0,
+        "wins": 3,
+        "losses": 5
+      },
+      {
+        "gameweek": 18,
+        "player": "Shahir I",
+        "goals": 1,
+        "assists": 2,
+        "wins": 2,
+        "losses": 2
+      },
+      {
+        "gameweek": 18,
+        "player": "Oskar R",
+        "goals": 1,
+        "assists": 1,
+        "wins": 4,
+        "losses": 2
+      },
+      {
+        "gameweek": 18,
+        "player": "Jonathan X",
+        "goals": 0,
+        "assists": 0,
+        "wins": 3,
+        "losses": 5
+      },
+      {
+        "gameweek": 18,
+        "player": "Henrik O",
+        "goals": 3,
+        "assists": 0,
+        "wins": 2,
+        "losses": 2
+      },
+      {
+        "gameweek": 18,
+        "player": "Gustav X",
+        "goals": 5,
+        "assists": 0,
+        "wins": 4,
+        "losses": 2
+      }
+    ]
+  }
+]

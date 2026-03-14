@@ -1,0 +1,322 @@
+[
+  {
+    "player": "Milos G",
+    "playerSlug": "milos-g",
+    "type": "motm",
+    "title": "MOTM",
+    "description": "Man of the Match - Gameweek 1",
+    "boostedRating": 83,
+    "stats": {
+      "points": 45,
+      "attendance": 3,
+      "goalsOrGA": 5,
+      "wins": 5,
+      "assistsOrCS": 3,
+      "losses": 4
+    }
+  },
+  {
+    "player": "Jakob S",
+    "playerSlug": "jakob-s",
+    "type": "motm",
+    "title": "MOTM",
+    "description": "Man of the Match - Gameweek 3",
+    "boostedRating": 97,
+    "stats": {
+      "points": 174,
+      "attendance": 15,
+      "goalsOrGA": 7,
+      "wins": 6,
+      "assistsOrCS": 2,
+      "losses": 0
+    }
+  },
+  {
+    "player": "Emil F",
+    "playerSlug": "emil-f",
+    "type": "motm",
+    "title": "MOTM",
+    "description": "Man of the Match - Gameweek 4",
+    "boostedRating": 81,
+    "stats": {
+      "points": 26,
+      "attendance": 2,
+      "goalsOrGA": 5,
+      "wins": 7,
+      "assistsOrCS": 3,
+      "losses": 1
+    }
+  },
+  {
+    "player": "Dennis F",
+    "playerSlug": "dennis-f",
+    "type": "motm",
+    "title": "MOTM",
+    "description": "Man of the Match - Gameweek 18",
+    "boostedRating": 83,
+    "stats": {
+      "points": 97,
+      "attendance": 9,
+      "goalsOrGA": 5,
+      "wins": 2,
+      "assistsOrCS": 4,
+      "losses": 2
+    }
+  },
+  {
+    "player": "Daniel Ö",
+    "playerSlug": "daniel-o",
+    "type": "totw",
+    "title": "TOTW",
+    "description": "Team of the Week - GW15-17",
+    "boostedRating": 88,
+    "stats": {
+      "points": 78,
+      "attendance": 6,
+      "goalsOrGA": 18,
+      "wins": 12,
+      "assistsOrCS": 7,
+      "losses": 7
+    }
+  },
+  {
+    "player": "Jakob S",
+    "playerSlug": "jakob-s",
+    "type": "totw",
+    "title": "TOTW",
+    "description": "Team of the Week - GW3-5",
+    "boostedRating": 98,
+    "stats": {
+      "points": 174,
+      "attendance": 15,
+      "goalsOrGA": 16,
+      "wins": 14,
+      "assistsOrCS": 6,
+      "losses": 2
+    }
+  },
+  {
+    "player": "Branislav D",
+    "playerSlug": "branislav-d",
+    "type": "totw",
+    "title": "TOTW",
+    "description": "Team of the Week - GW2-4",
+    "boostedRating": 84,
+    "stats": {
+      "points": 57,
+      "attendance": 5,
+      "goalsOrGA": 10,
+      "wins": 18,
+      "assistsOrCS": 8,
+      "losses": 2
+    }
+  },
+  {
+    "player": "Oliver G",
+    "playerSlug": "oliver-g",
+    "type": "totw",
+    "title": "TOTW",
+    "description": "Team of the Week - GW6-8",
+    "boostedRating": 82,
+    "stats": {
+      "points": 159,
+      "attendance": 17,
+      "goalsOrGA": 10,
+      "wins": 9,
+      "assistsOrCS": 6,
+      "losses": 5
+    }
+  },
+  {
+    "player": "Ivan N",
+    "playerSlug": "ivan-n",
+    "type": "totw",
+    "title": "TOTW",
+    "description": "Team of the Week - GW6-8",
+    "boostedRating": 88,
+    "stats": {
+      "points": 129,
+      "attendance": 12,
+      "goalsOrGA": 8,
+      "wins": 9,
+      "assistsOrCS": 9,
+      "losses": 6
+    }
+  },
+  {
+    "player": "Jakob S",
+    "playerSlug": "jakob-s",
+    "type": "rb",
+    "title": "Record Breaker",
+    "description": "Record Breaker - Jakob S",
+    "boostedRating": 98,
+    "stats": {
+      "points": 174,
+      "attendance": 15,
+      "goalsOrGA": 36,
+      "wins": 52,
+      "assistsOrCS": 37,
+      "losses": 32
+    }
+  },
+  {
+    "player": "Emil B",
+    "playerSlug": "emil-b",
+    "type": "rb",
+    "title": "Record Breaker",
+    "description": "Record Breaker - Emil B",
+    "boostedRating": 87,
+    "stats": {
+      "points": 146,
+      "attendance": 14,
+      "goalsOrGA": 12,
+      "wins": 56,
+      "assistsOrCS": 72,
+      "losses": 57
+    }
+  },
+  {
+    "player": "Oliver G",
+    "playerSlug": "oliver-g",
+    "type": "rb",
+    "title": "Record Breaker",
+    "description": "Record Breaker - Oliver G",
+    "boostedRating": 82,
+    "stats": {
+      "points": 159,
+      "attendance": 17,
+      "goalsOrGA": 28,
+      "wins": 48,
+      "assistsOrCS": 22,
+      "losses": 50
+    }
+  },
+  {
+    "player": "Jakob S",
+    "playerSlug": "jakob-s",
+    "type": "tots",
+    "title": "TOTS",
+    "description": "Team of the Season - Jakob S",
+    "boostedRating": 97,
+    "stats": {
+      "points": 174,
+      "attendance": 15,
+      "goalsOrGA": 36,
+      "wins": 52,
+      "assistsOrCS": 37,
+      "losses": 32
+    }
+  },
+  {
+    "player": "Ivan N",
+    "playerSlug": "ivan-n",
+    "type": "tots",
+    "title": "TOTS",
+    "description": "Team of the Season - Ivan N",
+    "boostedRating": 91,
+    "stats": {
+      "points": 129,
+      "attendance": 12,
+      "goalsOrGA": 27,
+      "wins": 35,
+      "assistsOrCS": 24,
+      "losses": 39
+    }
+  },
+  {
+    "player": "Daniel Ö",
+    "playerSlug": "daniel-o",
+    "type": "tots",
+    "title": "TOTS",
+    "description": "Team of the Season - Daniel Ö",
+    "boostedRating": 91,
+    "stats": {
+      "points": 78,
+      "attendance": 6,
+      "goalsOrGA": 26,
+      "wins": 19,
+      "assistsOrCS": 12,
+      "losses": 15
+    }
+  },
+  {
+    "player": "Dennis F",
+    "playerSlug": "dennis-f",
+    "type": "tots",
+    "title": "TOTS",
+    "description": "Team of the Season - Dennis F",
+    "boostedRating": 87,
+    "stats": {
+      "points": 97,
+      "attendance": 9,
+      "goalsOrGA": 23,
+      "wins": 30,
+      "assistsOrCS": 11,
+      "losses": 20
+    }
+  },
+  {
+    "player": "Oliver G",
+    "playerSlug": "oliver-g",
+    "type": "tots",
+    "title": "TOTS",
+    "description": "Team of the Season - Oliver G",
+    "boostedRating": 85,
+    "stats": {
+      "points": 159,
+      "attendance": 17,
+      "goalsOrGA": 28,
+      "wins": 48,
+      "assistsOrCS": 22,
+      "losses": 50
+    }
+  },
+  {
+    "player": "Emil B",
+    "playerSlug": "emil-b",
+    "type": "tots",
+    "title": "TOTS",
+    "description": "Team of the Season - Emil B",
+    "boostedRating": 90,
+    "stats": {
+      "points": 146,
+      "attendance": 14,
+      "goalsOrGA": 12,
+      "wins": 56,
+      "assistsOrCS": 72,
+      "losses": 57
+    }
+  },
+  {
+    "player": "Emil B",
+    "playerSlug": "emil-b",
+    "type": "hero",
+    "title": "Hero",
+    "description": "Club Hero - Emil B",
+    "boostedRating": 88,
+    "stats": {
+      "points": 146,
+      "attendance": 14,
+      "goalsOrGA": 12,
+      "wins": 56,
+      "assistsOrCS": 72,
+      "losses": 57
+    }
+  },
+  {
+    "player": "Jakob S",
+    "playerSlug": "jakob-s",
+    "type": "icon",
+    "title": "Icon",
+    "description": "Club Icon - Jakob S",
+    "boostedRating": 99,
+    "stats": {
+      "points": 174,
+      "attendance": 15,
+      "goalsOrGA": 36,
+      "wins": 52,
+      "assistsOrCS": 37,
+      "losses": 32
+    }
+  }
+]
