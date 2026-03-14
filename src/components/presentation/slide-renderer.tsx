@@ -16,6 +16,19 @@ export function SlideRenderer({ slide }: SlideRendererProps) {
             Vaksala KR-cupen
           </h1>
           <h2 className="text-3xl font-bold text-zinc-300">25/26 Season</h2>
+
+          {/* Card stat legend */}
+          <div className="mt-6 grid grid-cols-2 gap-x-10 gap-y-1 text-sm text-zinc-400">
+            <span><span className="text-zinc-200 font-semibold">POÄ</span> — Poäng</span>
+            <span><span className="text-zinc-200 font-semibold">NÄR</span> — Närvaro</span>
+            <span><span className="text-zinc-200 font-semibold">MÅL</span> — Mål</span>
+            <span><span className="text-zinc-200 font-semibold">VIN</span> — Vinster</span>
+            <span><span className="text-zinc-200 font-semibold">ASS</span> — Assists</span>
+            <span><span className="text-zinc-200 font-semibold">FÖR</span> — Förluster</span>
+            <span><span className="text-zinc-200 font-semibold">NOL</span> — Nollor (CS)</span>
+            <span><span className="text-zinc-200 font-semibold">PPT</span> — Poäng per träning</span>
+          </div>
+
           <p className="text-zinc-500 text-lg mt-4">Press SPACE or &rarr; to start</p>
         </div>
       );

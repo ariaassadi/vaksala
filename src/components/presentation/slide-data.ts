@@ -114,7 +114,7 @@ const LEADERBOARD_CATEGORIES: LeaderboardCategory[] = [
     formatValue: (v) => v,
   },
   {
-    category: "Highest PPT",
+    category: "Highest PPT (Poäng per träning)",
     getValue: (p) => p.ppt,
     formatValue: (v) => v,
   },
