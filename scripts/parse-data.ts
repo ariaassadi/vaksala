@@ -346,10 +346,15 @@ function generateSpecialCards(
 
   // MOTM cards
   const motmPicks: Array<{ name: string; gw: number; description: string }> = [
-    { name: "Milos G", gw: 1, description: "Man of the Match - Gameweek 1" },
-    { name: "Jakob S", gw: 3, description: "Man of the Match - Gameweek 3" },
-    { name: "Emil F", gw: 4, description: "Man of the Match - Gameweek 4" },
-    { name: "Dennis F", gw: 18, description: "Man of the Match - Gameweek 18" },
+    { name: "Daniel K", gw: 16, description: "Man of the Match - GW16 (8G 7A)" },
+    { name: "Daniel Ö", gw: 16, description: "Man of the Match - GW16 (9 goals)" },
+    { name: "Isak L", gw: 18, description: "Man of the Match - GW18 (8G 5A)" },
+    { name: "Milos G", gw: 15, description: "Man of the Match - GW15 (6G 6A)" },
+    { name: "Jakob S", gw: 3, description: "Man of the Match - GW3 (7G 2A)" },
+    { name: "Joel C", gw: 16, description: "Man of the Match - GW16 (8 assists)" },
+    { name: "Emil F", gw: 4, description: "Man of the Match - GW4 (5G 3A)" },
+    { name: "Leo F", gw: 8, description: "Man of the Match - GW8 (5G 3A)" },
+    { name: "Dennis F", gw: 18, description: "Man of the Match - GW18 (5G 4A)" },
   ];
 
   for (const pick of motmPicks) {
@@ -378,31 +383,43 @@ function generateSpecialCards(
       name: "Daniel Ö",
       startGW: 15,
       endGW: 17,
-      description: "Team of the Week - GW15-17",
+      description: "Team of the Week - GW15-17 (18G 7A)",
     },
     {
       name: "Jakob S",
       startGW: 3,
       endGW: 5,
-      description: "Team of the Week - GW3-5",
+      description: "Team of the Week - GW3-5 (16G 6A)",
     },
     {
       name: "Branislav D",
       startGW: 2,
       endGW: 4,
-      description: "Team of the Week - GW2-4",
+      description: "Team of the Week - GW2-4 (18W 2L)",
     },
     {
       name: "Oliver G",
       startGW: 6,
       endGW: 8,
-      description: "Team of the Week - GW6-8",
+      description: "Team of the Week - GW6-8 (10G 6A)",
     },
     {
       name: "Ivan N",
       startGW: 6,
       endGW: 8,
-      description: "Team of the Week - GW6-8",
+      description: "Team of the Week - GW6-8 (8G 9A)",
+    },
+    {
+      name: "Daniel K",
+      startGW: 15,
+      endGW: 17,
+      description: "Team of the Week - GW15-17 (10G 7A)",
+    },
+    {
+      name: "Shahir I",
+      startGW: 15,
+      endGW: 17,
+      description: "Team of the Week - GW15-17 (6G 5A)",
     },
   ];
 
@@ -426,24 +443,34 @@ function generateSpecialCards(
     });
   }
 
-  // Record Breaker cards (use season stats)
-  const rbPicks = ["Jakob S", "Emil B", "Oliver G"];
-  for (const name of rbPicks) {
-    const player = playerMap.get(name);
+  // Record Breaker cards
+  const rbPicks: Array<{ name: string; description: string }> = [
+    { name: "Jakob S", description: "Record Breaker - Most G+A in season (73)" },
+    { name: "Daniel K", description: "Record Breaker - Best single GW (15 G+A in GW16)" },
+    { name: "Daniel Ö", description: "Record Breaker - Most goals in a single GW (9 in GW16)" },
+    { name: "Samuel P", description: "Record Breaker - Season assist leader (29)" },
+    { name: "Emil B", description: "Record Breaker - Most GWs played as GK (14)" },
+    { name: "Oliver G", description: "Record Breaker - Most GWs attended (17)" },
+  ];
+  for (const pick of rbPicks) {
+    const player = playerMap.get(pick.name);
     if (!player) continue;
     cards.push({
       player: player.name,
       playerSlug: player.slug,
       type: "rb",
       title: "Record Breaker",
-      description: `Record Breaker - ${player.name}`,
+      description: pick.description,
       boostedRating: Math.min(99, player.rating + 6),
       stats: buildCardStats(player, null),
     });
   }
 
   // TOTS cards (rating + 7, capped at 97)
-  const totsPicks = ["Jakob S", "Ivan N", "Daniel Ö", "Dennis F", "Oliver G", "Emil B"];
+  const totsPicks = [
+    "Jakob S", "Ivan N", "Daniel Ö", "Dennis F", "Oliver G", "Emil B",
+    "Daniel K", "Samuel P", "Oskar R", "Milos G",
+  ];
   for (const name of totsPicks) {
     const player = playerMap.get(name);
     if (!player) continue;
@@ -458,17 +485,23 @@ function generateSpecialCards(
     });
   }
 
-  // HERO card
-  const heroPlayer = playerMap.get("Emil B");
-  if (heroPlayer) {
+  // HERO cards
+  const heroPicks: Array<{ name: string; description: string }> = [
+    { name: "Emil B", description: "Club Hero - Emil B (GK wall, 14 GWs)" },
+    { name: "Milos G", description: "Club Hero - Milos G (PPT king: 15.0)" },
+    { name: "Samuel P", description: "Club Hero - Samuel P (29 assists)" },
+  ];
+  for (const pick of heroPicks) {
+    const player = playerMap.get(pick.name);
+    if (!player) continue;
     cards.push({
-      player: heroPlayer.name,
-      playerSlug: heroPlayer.slug,
+      player: player.name,
+      playerSlug: player.slug,
       type: "hero",
       title: "Hero",
-      description: "Club Hero - Emil B",
-      boostedRating: Math.min(99, heroPlayer.rating + 5),
-      stats: buildCardStats(heroPlayer, null),
+      description: pick.description,
+      boostedRating: Math.min(99, player.rating + 5),
+      stats: buildCardStats(player, null),
     });
   }
 
@@ -480,7 +513,7 @@ function generateSpecialCards(
       playerSlug: iconPlayer.slug,
       type: "icon",
       title: "Icon",
-      description: "Club Icon - Jakob S",
+      description: "Club Icon - Jakob S (94 rated, 73 G+A)",
       boostedRating: Math.min(99, iconPlayer.rating + 5),
       stats: buildCardStats(iconPlayer, null),
     });
