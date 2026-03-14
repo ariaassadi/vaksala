@@ -282,7 +282,9 @@ function aggregateGWStats(
 
 function buildCardStats(
   player: Player,
-  gwStats: GameweekPlayerStats | null
+  gwStats: GameweekPlayerStats | null,
+  mode: "season" | "motm" | "totw" = "season",
+  numGWs: number = 1
 ): CardStats {
   if (!gwStats) {
     return {
@@ -292,6 +294,32 @@ function buildCardStats(
       wins: player.wins,
       assistsOrCS: player.isGoalkeeper ? player.cleanSheets : player.assists,
       losses: player.losses,
+    };
+  }
+
+  if (mode === "motm") {
+    return {
+      points: gwStats.goals + gwStats.assists,
+      attendance: 1,
+      goalsOrGA: player.isGoalkeeper
+        ? gwStats.goals + gwStats.assists
+        : gwStats.goals,
+      wins: gwStats.wins,
+      assistsOrCS: player.isGoalkeeper ? player.cleanSheets : gwStats.assists,
+      losses: gwStats.losses,
+    };
+  }
+
+  if (mode === "totw") {
+    return {
+      points: gwStats.goals + gwStats.assists,
+      attendance: numGWs,
+      goalsOrGA: player.isGoalkeeper
+        ? gwStats.goals + gwStats.assists
+        : gwStats.goals,
+      wins: gwStats.wins,
+      assistsOrCS: player.isGoalkeeper ? player.cleanSheets : gwStats.assists,
+      losses: gwStats.losses,
     };
   }
 
@@ -334,8 +362,8 @@ function generateSpecialCards(
       type: "motm",
       title: "MOTM",
       description: pick.description,
-      boostedRating: Math.min(99, player.rating + 3),
-      stats: buildCardStats(player, gwStats),
+      boostedRating: Math.min(99, player.rating + 4),
+      stats: buildCardStats(player, gwStats, "motm"),
     });
   }
 
@@ -393,8 +421,8 @@ function generateSpecialCards(
       type: "totw",
       title: "TOTW",
       description: pick.description,
-      boostedRating: Math.min(99, player.rating + 4),
-      stats: buildCardStats(player, aggStats),
+      boostedRating: Math.min(99, player.rating + 5),
+      stats: buildCardStats(player, aggStats, "totw", pick.endGW - pick.startGW + 1),
     });
   }
 
@@ -409,7 +437,7 @@ function generateSpecialCards(
       type: "rb",
       title: "Record Breaker",
       description: `Record Breaker - ${player.name}`,
-      boostedRating: Math.min(99, player.rating + 4),
+      boostedRating: Math.min(99, player.rating + 6),
       stats: buildCardStats(player, null),
     });
   }

@@ -5,13 +5,14 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import type { Player } from "@/lib/types";
 
-type SortKey = "rating" | "points" | "goals" | "assists" | "wins" | "ppt" | "cleanSheets";
+type SortKey = "rating" | "points" | "goals" | "assists" | "ga" | "wins" | "ppt" | "cleanSheets";
 
 const CATEGORIES: { key: SortKey; label: string }[] = [
   { key: "rating", label: "Rating" },
   { key: "points", label: "Points" },
   { key: "goals", label: "Goals" },
   { key: "assists", label: "Assists" },
+  { key: "ga", label: "G+A" },
   { key: "wins", label: "Wins" },
   { key: "ppt", label: "PPT" },
   { key: "cleanSheets", label: "Clean Sheets" },
@@ -24,7 +25,10 @@ interface LeaderboardTableProps {
 export function LeaderboardTable({ players }: LeaderboardTableProps) {
   const [sortKey, setSortKey] = useState<SortKey>("rating");
 
-  const sorted = [...players].sort((a, b) => b[sortKey] - a[sortKey]);
+  const getValue = (player: Player, key: SortKey): number =>
+    key === "ga" ? player.goals + player.assists : player[key];
+
+  const sorted = [...players].sort((a, b) => getValue(b, sortKey) - getValue(a, sortKey));
 
   return (
     <div className="space-y-4">
@@ -89,7 +93,7 @@ export function LeaderboardTable({ players }: LeaderboardTableProps) {
                       {player.name}
                     </Link>
                   </td>
-                  {CATEGORIES.map(({ key, label }) => (
+                  {CATEGORIES.map(({ key }) => (
                     <td
                       key={key}
                       className={cn(
@@ -97,7 +101,7 @@ export function LeaderboardTable({ players }: LeaderboardTableProps) {
                         sortKey === key ? "text-yellow-400" : "text-zinc-300"
                       )}
                     >
-                      {player[key]}
+                      {getValue(player, key)}
                     </td>
                   ))}
                 </tr>
