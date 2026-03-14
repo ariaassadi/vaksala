@@ -70,16 +70,16 @@ export const TIER_COLORS: Record<
     silhouette: "#333333",
   },
   gold: {
-    bg: "from-yellow-600/80 to-yellow-500/60",
-    text: "text-yellow-950",
-    accent: "shadow-yellow-500/30",
-    silhouette: "#4A3A10",
+    bg: "from-[#B8941F]/90 to-[#9A7B18]/70",
+    text: "text-[#3A2E0A]",
+    accent: "shadow-[#B8941F]/30",
+    silhouette: "#5A4510",
   },
   "gold-rare": {
-    bg: "from-yellow-500/80 to-yellow-400/60",
-    text: "text-yellow-950",
-    accent: "shadow-yellow-400/40",
-    silhouette: "#5A4A10",
+    bg: "from-[#D4A828]/90 to-[#B8941F]/70",
+    text: "text-[#3A2E0A]",
+    accent: "shadow-[#D4A828]/40",
+    silhouette: "#6B5518",
   },
 };
 
