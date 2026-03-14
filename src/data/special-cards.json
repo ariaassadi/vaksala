@@ -5,7 +5,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW16 (8G 7A)",
-    "boostedRating": 80,
+    "boostedRating": 78,
     "stats": {
       "points": 15,
       "attendance": 1,
@@ -21,7 +21,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW16 (9 goals)",
-    "boostedRating": 88,
+    "boostedRating": 86,
     "stats": {
       "points": 12,
       "attendance": 1,
@@ -32,28 +32,12 @@
     }
   },
   {
-    "player": "Isak L",
-    "playerSlug": "isak-l",
-    "type": "motm",
-    "title": "MOTM",
-    "description": "Man of the Match - GW18 (8G 5A)",
-    "boostedRating": 74,
-    "stats": {
-      "points": 13,
-      "attendance": 1,
-      "goalsOrGA": 8,
-      "wins": 4,
-      "assistsOrCS": 5,
-      "losses": 2
-    }
-  },
-  {
     "player": "Milos G",
     "playerSlug": "milos-g",
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW15 (6G 6A)",
-    "boostedRating": 84,
+    "boostedRating": 82,
     "stats": {
       "points": 12,
       "attendance": 1,
@@ -69,7 +53,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW3 (7G 2A)",
-    "boostedRating": 98,
+    "boostedRating": 96,
     "stats": {
       "points": 9,
       "attendance": 1,
@@ -85,7 +69,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW16 (8 assists)",
-    "boostedRating": 83,
+    "boostedRating": 81,
     "stats": {
       "points": 9,
       "attendance": 1,
@@ -96,44 +80,12 @@
     }
   },
   {
-    "player": "Emil F",
-    "playerSlug": "emil-f",
-    "type": "motm",
-    "title": "MOTM",
-    "description": "Man of the Match - GW4 (5G 3A)",
-    "boostedRating": 82,
-    "stats": {
-      "points": 8,
-      "attendance": 1,
-      "goalsOrGA": 5,
-      "wins": 7,
-      "assistsOrCS": 3,
-      "losses": 1
-    }
-  },
-  {
-    "player": "Leo F",
-    "playerSlug": "leo-f",
-    "type": "motm",
-    "title": "MOTM",
-    "description": "Man of the Match - GW8 (5G 3A)",
-    "boostedRating": 81,
-    "stats": {
-      "points": 8,
-      "attendance": 1,
-      "goalsOrGA": 5,
-      "wins": 3,
-      "assistsOrCS": 3,
-      "losses": 1
-    }
-  },
-  {
     "player": "Dennis F",
     "playerSlug": "dennis-f",
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW18 (5G 4A)",
-    "boostedRating": 84,
+    "boostedRating": 82,
     "stats": {
       "points": 9,
       "attendance": 1,
@@ -149,7 +101,7 @@
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW15-17 (18G 7A)",
-    "boostedRating": 89,
+    "boostedRating": 87,
     "stats": {
       "points": 25,
       "attendance": 3,
@@ -165,7 +117,7 @@
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW3-5 (16G 6A)",
-    "boostedRating": 99,
+    "boostedRating": 97,
     "stats": {
       "points": 22,
       "attendance": 3,
@@ -181,7 +133,7 @@
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW2-4 (18W 2L)",
-    "boostedRating": 85,
+    "boostedRating": 83,
     "stats": {
       "points": 18,
       "attendance": 3,
@@ -192,28 +144,12 @@
     }
   },
   {
-    "player": "Oliver G",
-    "playerSlug": "oliver-g",
-    "type": "totw",
-    "title": "TOTW",
-    "description": "Team of the Week - GW6-8 (10G 6A)",
-    "boostedRating": 83,
-    "stats": {
-      "points": 16,
-      "attendance": 3,
-      "goalsOrGA": 10,
-      "wins": 9,
-      "assistsOrCS": 6,
-      "losses": 5
-    }
-  },
-  {
     "player": "Ivan N",
     "playerSlug": "ivan-n",
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW6-8 (8G 9A)",
-    "boostedRating": 89,
+    "boostedRating": 87,
     "stats": {
       "points": 17,
       "attendance": 3,
@@ -229,7 +165,7 @@
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW15-17 (10G 7A)",
-    "boostedRating": 81,
+    "boostedRating": 79,
     "stats": {
       "points": 17,
       "attendance": 3,
@@ -237,22 +173,6 @@
       "wins": 9,
       "assistsOrCS": 7,
       "losses": 3
-    }
-  },
-  {
-    "player": "Shahir I",
-    "playerSlug": "shahir-i",
-    "type": "totw",
-    "title": "TOTW",
-    "description": "Team of the Week - GW15-17 (6G 5A)",
-    "boostedRating": 72,
-    "stats": {
-      "points": 8,
-      "attendance": 3,
-      "goalsOrGA": 5,
-      "wins": 6,
-      "assistsOrCS": 3,
-      "losses": 1
     }
   },
   {
@@ -373,7 +293,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Ivan N",
-    "boostedRating": 91,
+    "boostedRating": 88,
     "stats": {
       "points": 129,
       "attendance": 12,
@@ -389,7 +309,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Daniel Ö",
-    "boostedRating": 91,
+    "boostedRating": 88,
     "stats": {
       "points": 78,
       "attendance": 6,
@@ -405,7 +325,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Dennis F",
-    "boostedRating": 87,
+    "boostedRating": 84,
     "stats": {
       "points": 97,
       "attendance": 9,
@@ -421,7 +341,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Oliver G",
-    "boostedRating": 85,
+    "boostedRating": 82,
     "stats": {
       "points": 159,
       "attendance": 17,
@@ -437,7 +357,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Emil B",
-    "boostedRating": 90,
+    "boostedRating": 87,
     "stats": {
       "points": 146,
       "attendance": 14,
@@ -453,7 +373,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Daniel K",
-    "boostedRating": 83,
+    "boostedRating": 80,
     "stats": {
       "points": 133,
       "attendance": 14,
@@ -469,7 +389,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Samuel P",
-    "boostedRating": 86,
+    "boostedRating": 83,
     "stats": {
       "points": 104,
       "attendance": 10,
@@ -480,28 +400,12 @@
     }
   },
   {
-    "player": "Oskar R",
-    "playerSlug": "oskar-r",
-    "type": "tots",
-    "title": "TOTS",
-    "description": "Team of the Season - Oskar R",
-    "boostedRating": 83,
-    "stats": {
-      "points": 133,
-      "attendance": 14,
-      "goalsOrGA": 16,
-      "wins": 48,
-      "assistsOrCS": 23,
-      "losses": 35
-    }
-  },
-  {
     "player": "Milos G",
     "playerSlug": "milos-g",
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Milos G",
-    "boostedRating": 87,
+    "boostedRating": 84,
     "stats": {
       "points": 45,
       "attendance": 3,

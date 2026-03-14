@@ -41,7 +41,7 @@ export function CardBackground({ tier, specialType, className, children }: CardB
           clipPath: "polygon(8% 0%, 92% 0%, 100% 6%, 100% 82%, 85% 92%, 50% 100%, 15% 92%, 0% 82%, 0% 6%)",
         }}
       />
-      <div className="relative z-10 flex flex-col items-center w-full h-full">{children}</div>
+      <div className="relative z-10 flex flex-col items-center w-full h-full font-[family-name:var(--font-card)]">{children}</div>
     </div>
   );
 }

@@ -348,12 +348,9 @@ function generateSpecialCards(
   const motmPicks: Array<{ name: string; gw: number; description: string }> = [
     { name: "Daniel K", gw: 16, description: "Man of the Match - GW16 (8G 7A)" },
     { name: "Daniel Ö", gw: 16, description: "Man of the Match - GW16 (9 goals)" },
-    { name: "Isak L", gw: 18, description: "Man of the Match - GW18 (8G 5A)" },
     { name: "Milos G", gw: 15, description: "Man of the Match - GW15 (6G 6A)" },
     { name: "Jakob S", gw: 3, description: "Man of the Match - GW3 (7G 2A)" },
     { name: "Joel C", gw: 16, description: "Man of the Match - GW16 (8 assists)" },
-    { name: "Emil F", gw: 4, description: "Man of the Match - GW4 (5G 3A)" },
-    { name: "Leo F", gw: 8, description: "Man of the Match - GW8 (5G 3A)" },
     { name: "Dennis F", gw: 18, description: "Man of the Match - GW18 (5G 4A)" },
   ];
 
@@ -367,7 +364,7 @@ function generateSpecialCards(
       type: "motm",
       title: "MOTM",
       description: pick.description,
-      boostedRating: Math.min(99, player.rating + 4),
+      boostedRating: Math.min(99, player.rating + 2),
       stats: buildCardStats(player, gwStats, "motm"),
     });
   }
@@ -398,12 +395,6 @@ function generateSpecialCards(
       description: "Team of the Week - GW2-4 (18W 2L)",
     },
     {
-      name: "Oliver G",
-      startGW: 6,
-      endGW: 8,
-      description: "Team of the Week - GW6-8 (10G 6A)",
-    },
-    {
       name: "Ivan N",
       startGW: 6,
       endGW: 8,
@@ -414,12 +405,6 @@ function generateSpecialCards(
       startGW: 15,
       endGW: 17,
       description: "Team of the Week - GW15-17 (10G 7A)",
-    },
-    {
-      name: "Shahir I",
-      startGW: 15,
-      endGW: 17,
-      description: "Team of the Week - GW15-17 (6G 5A)",
     },
   ];
 
@@ -438,7 +423,7 @@ function generateSpecialCards(
       type: "totw",
       title: "TOTW",
       description: pick.description,
-      boostedRating: Math.min(99, player.rating + 5),
+      boostedRating: Math.min(99, player.rating + 3),
       stats: buildCardStats(player, aggStats, "totw", pick.endGW - pick.startGW + 1),
     });
   }
@@ -469,7 +454,7 @@ function generateSpecialCards(
   // TOTS cards (rating + 7, capped at 97)
   const totsPicks = [
     "Jakob S", "Ivan N", "Daniel Ö", "Dennis F", "Oliver G", "Emil B",
-    "Daniel K", "Samuel P", "Oskar R", "Milos G",
+    "Daniel K", "Samuel P", "Milos G",
   ];
   for (const name of totsPicks) {
     const player = playerMap.get(name);
@@ -480,7 +465,7 @@ function generateSpecialCards(
       type: "tots",
       title: "TOTS",
       description: `Team of the Season - ${player.name}`,
-      boostedRating: Math.min(97, player.rating + 7),
+      boostedRating: Math.min(97, player.rating + 4),
       stats: buildCardStats(player, null),
     });
   }

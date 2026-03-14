@@ -1,7 +1,14 @@
-import Link from "next/link";
-import { FifaCard } from "@/components/fifa-card";
-import { DownloadableCard } from "@/components/downloadable-card";
 import { getPlayers, getGameweeks, getSpecialCards } from "@/lib/data";
+import { SeasonDashboard } from "@/components/season-dashboard";
+
+const TIER_DISPLAY: Record<string, { label: string; fill: string }> = {
+  bronze: { label: "Bronze", fill: "#8B6914" },
+  "bronze-rare": { label: "Bronze Rare", fill: "#B8860B" },
+  silver: { label: "Silver", fill: "#8A8A8A" },
+  "silver-rare": { label: "Silver Rare", fill: "#B0B0B0" },
+  gold: { label: "Gold", fill: "#C5A000" },
+  "gold-rare": { label: "Gold Rare", fill: "#FFD700" },
+};
 
 export default function Home() {
   const players = getPlayers();
@@ -9,7 +16,7 @@ export default function Home() {
   const specialCards = getSpecialCards();
 
   const totalGoals = players.reduce((sum, p) => sum + p.goals, 0);
-  const topFive = [...players].sort((a, b) => b.rating - a.rating).slice(0, 5);
+  const totalAssists = players.reduce((sum, p) => sum + p.assists, 0);
 
   const quickStats = [
     { label: "Players", value: players.length },
@@ -17,6 +24,39 @@ export default function Home() {
     { label: "Total Goals", value: totalGoals },
     { label: "Special Cards", value: specialCards.length },
   ];
+
+  // Goals & assists per gameweek
+  const gameweekData = gameweeks.map((gw) => ({
+    gw: `GW${gw.number}`,
+    goals: gw.players.reduce((s, p) => s + p.goals, 0),
+    assists: gw.players.reduce((s, p) => s + p.assists, 0),
+    players: gw.players.length,
+  }));
+
+  // Cumulative goals
+  let cumulative = 0;
+  const cumulativeGoals = gameweekData.map((d) => {
+    cumulative += d.goals;
+    return { gw: d.gw, goals: cumulative };
+  });
+
+  // Tier distribution
+  const tierCounts = new Map<string, number>();
+  players.forEach((p) => tierCounts.set(p.tier, (tierCounts.get(p.tier) || 0) + 1));
+  const tierOrder = ["bronze", "bronze-rare", "silver", "silver-rare", "gold", "gold-rare"];
+  const tierData = tierOrder
+    .filter((t) => tierCounts.has(t))
+    .map((t) => ({
+      tier: TIER_DISPLAY[t].label,
+      count: tierCounts.get(t)!,
+      fill: TIER_DISPLAY[t].fill,
+    }));
+
+  // Top scorers (by G+A)
+  const topScorers = [...players]
+    .sort((a, b) => b.goals + b.assists - (a.goals + a.assists))
+    .slice(0, 8)
+    .map((p) => ({ name: p.name, goals: p.goals, assists: p.assists }));
 
   return (
     <main className="min-h-screen">
@@ -31,7 +71,7 @@ export default function Home() {
       </section>
 
       {/* Quick stats bar */}
-      <section className="max-w-4xl mx-auto px-4 mb-16">
+      <section className="max-w-5xl mx-auto px-4 mb-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {quickStats.map(({ label, value }) => (
             <div
@@ -45,21 +85,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Top Rated */}
-      <section className="max-w-7xl mx-auto px-4 pb-20">
-        <h2 className="text-2xl font-bold mb-8 text-zinc-100">Top Rated</h2>
-        <div className="flex flex-wrap gap-6 justify-center md:justify-start">
-          {topFive.map((player) => (
-            <DownloadableCard key={player.slug} fileName={player.slug}>
-              <Link
-                href={`/cards/${player.slug}`}
-                className="hover:scale-105 transition-transform duration-200"
-              >
-                <FifaCard player={player} size="md" />
-              </Link>
-            </DownloadableCard>
-          ))}
-        </div>
+      {/* Dashboard */}
+      <section className="max-w-5xl mx-auto px-4 pb-20">
+        <SeasonDashboard
+          gameweekData={gameweekData}
+          tierData={tierData}
+          topScorers={topScorers}
+          cumulativeGoals={cumulativeGoals}
+        />
       </section>
     </main>
   );
