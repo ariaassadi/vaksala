@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FifaCard } from "@/components/fifa-card";
+import { DownloadableCard } from "@/components/downloadable-card";
 import { getPlayers, getGameweeks, getSpecialCards } from "@/lib/data";
 
 export default function Home() {
@@ -49,13 +50,14 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-8 text-zinc-100">Top Rated</h2>
         <div className="flex flex-wrap gap-6 justify-center md:justify-start">
           {topFive.map((player) => (
-            <Link
-              key={player.slug}
-              href={`/cards/${player.slug}`}
-              className="hover:scale-105 transition-transform duration-200"
-            >
-              <FifaCard player={player} size="md" />
-            </Link>
+            <DownloadableCard key={player.slug} fileName={player.slug}>
+              <Link
+                href={`/cards/${player.slug}`}
+                className="hover:scale-105 transition-transform duration-200"
+              >
+                <FifaCard player={player} size="md" />
+              </Link>
+            </DownloadableCard>
           ))}
         </div>
       </section>

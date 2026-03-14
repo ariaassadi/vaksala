@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { Player, CardStats, SpecialCardType } from "@/lib/types";
 import { TIER_COLORS, SPECIAL_COLORS, getCardStats } from "@/lib/card-utils";
@@ -9,33 +8,53 @@ type CardSize = "sm" | "md" | "lg";
 
 interface SizeConfig {
   card: string;
-  ratingText: string;
-  nameText: string;
-  imageSize: number;
-  paddingTop: string;
+  rating: string;
+  badge: string;
+  flag: string;
+  name: string;
+  silhouette: string;
+  statValue: string;
+  statLabel: string;
+  footerText: string;
+  gap: string;
 }
 
 const SIZE_MAP: Record<CardSize, SizeConfig> = {
   sm: {
-    card: "w-[180px] h-[260px]",
-    ratingText: "text-2xl",
-    nameText: "text-xs",
-    imageSize: 80,
-    paddingTop: "pt-3",
+    card: "w-[160px] h-[230px]",
+    rating: "text-[22px]",
+    badge: "w-[14px] h-[14px] text-[4.5px]",
+    flag: "w-[14px] h-[9px]",
+    name: "text-[9px] py-[3px]",
+    silhouette: "w-[56px] h-[56px]",
+    statValue: "text-[13px]",
+    statLabel: "text-[7px]",
+    footerText: "text-[7px] pb-5",
+    gap: "gap-[2px]",
   },
   md: {
-    card: "w-[240px] h-[346px]",
-    ratingText: "text-3xl",
-    nameText: "text-sm",
-    imageSize: 110,
-    paddingTop: "pt-4",
+    card: "w-[200px] h-[290px]",
+    rating: "text-[28px]",
+    badge: "w-[18px] h-[18px] text-[5.5px]",
+    flag: "w-[18px] h-[11px]",
+    name: "text-[10px] py-[3px]",
+    silhouette: "w-[76px] h-[76px]",
+    statValue: "text-[15px]",
+    statLabel: "text-[8px]",
+    footerText: "text-[8px] pb-6",
+    gap: "gap-[3px]",
   },
   lg: {
-    card: "w-[320px] h-[462px]",
-    ratingText: "text-4xl",
-    nameText: "text-base",
-    imageSize: 150,
-    paddingTop: "pt-5",
+    card: "w-[300px] h-[430px]",
+    rating: "text-[42px]",
+    badge: "w-[24px] h-[24px] text-[7px]",
+    flag: "w-[24px] h-[15px]",
+    name: "text-sm py-1",
+    silhouette: "w-[110px] h-[110px]",
+    statValue: "text-xl",
+    statLabel: "text-[10px]",
+    footerText: "text-[10px] pb-8",
+    gap: "gap-1",
   },
 };
 
@@ -55,102 +74,83 @@ export function FifaCard({
   specialType,
   specialRating,
   specialStats,
-  specialTitle,
   size = "md",
   className,
 }: FifaCardProps) {
-  const sizeConfig = SIZE_MAP[size];
+  const s = SIZE_MAP[size];
   const colors = specialType ? SPECIAL_COLORS[specialType] : TIER_COLORS[player.tier];
   const textColor = colors.text;
   const rating = specialRating ?? player.rating;
   const stats = specialStats ?? getCardStats(player);
   const footerLabel = specialType ? specialType.toUpperCase() : "BASIC";
+  const silhouetteColor = specialType ? "rgba(255,255,255,0.15)" : TIER_COLORS[player.tier].silhouette;
 
   return (
     <CardBackground
       tier={player.tier}
       specialType={specialType}
-      className={cn(sizeConfig.card, className)}
+      className={cn(s.card, className)}
     >
-      {/* Top section: rating (absolute top-left) + club/flag (absolute below rating) */}
-      <div className={cn("absolute top-0 left-0 flex flex-col items-center", sizeConfig.paddingTop, "pl-4 z-20")}>
-        <span className={cn("font-black leading-none", sizeConfig.ratingText, textColor)}>
+      {/* Left column: rating + badge + flag */}
+      <div className={cn("absolute top-0 left-0 flex flex-col items-center pt-[8%] pl-[10%] z-20", s.gap)}>
+        <span className={cn("font-black leading-none tracking-tight", s.rating, textColor)}>
           {rating}
         </span>
-        {/* VSK circle crest */}
-        <div className={cn("mt-1 flex flex-col items-center gap-0.5")}>
-          <div
-            className={cn(
-              "rounded-full flex items-center justify-center font-black border",
-              textColor,
-              size === "lg" ? "w-7 h-7 text-[9px]" : size === "md" ? "w-5 h-5 text-[7px]" : "w-4 h-4 text-[6px]",
-              "border-current opacity-80"
-            )}
-          >
-            VSK
-          </div>
-          {/* Swedish flag */}
-          <div
-            className={cn(
-              "relative overflow-hidden rounded-sm",
-              size === "lg" ? "w-7 h-[14px]" : size === "md" ? "w-5 h-[10px]" : "w-4 h-[8px]"
-            )}
-            style={{ background: "#006AA7" }}
-          >
-            {/* Yellow cross */}
-            <div className="absolute inset-0 flex items-center" style={{ paddingLeft: "30%" }}>
-              <div className="w-full h-[30%] bg-[#FECC02]" />
-            </div>
-            <div className="absolute inset-0 flex justify-center" style={{ paddingTop: "0" }}>
-              <div className="h-full w-[20%] bg-[#FECC02]" />
-            </div>
-          </div>
+        {/* VSK badge */}
+        <div
+          className={cn(
+            "rounded-full flex items-center justify-center font-black border border-current/60",
+            textColor, s.badge
+          )}
+        >
+          VSK
+        </div>
+        {/* Swedish flag */}
+        <div className={cn("relative overflow-hidden rounded-[1px]", s.flag)} style={{ background: "#006AA7" }}>
+          <div className="absolute" style={{ top: "35%", left: 0, right: 0, height: "30%", background: "#FECC02" }} />
+          <div className="absolute" style={{ left: "30%", top: 0, bottom: 0, width: "20%", background: "#FECC02" }} />
         </div>
       </div>
 
-      {/* Player image or silhouette — centered, flexible height */}
-      <div className={cn("flex flex-1 items-end justify-center w-full mt-0", sizeConfig.paddingTop)}>
-        {player.imageUrl ? (
-          <Image
-            src={player.imageUrl}
-            alt={player.name}
-            width={sizeConfig.imageSize}
-            height={sizeConfig.imageSize}
-            className="object-contain drop-shadow-lg"
-            style={{ maxHeight: sizeConfig.imageSize }}
-          />
-        ) : (
-          <div
-            style={{
-              width: sizeConfig.imageSize,
-              height: sizeConfig.imageSize,
-              background: `radial-gradient(ellipse at 50% 30%, ${TIER_COLORS[player.tier].silhouette}cc 0%, ${TIER_COLORS[player.tier].silhouette}44 70%, transparent 100%)`,
-            }}
-            className="rounded-full"
-          />
-        )}
+      {/* Face silhouette - centered in card body */}
+      <div className="flex flex-1 items-center justify-center w-full pt-[10%]">
+        <div className={cn("rounded-full flex items-center justify-center", s.silhouette)}
+          style={{
+            background: `radial-gradient(ellipse at 50% 40%, ${silhouetteColor}88 0%, ${silhouetteColor}22 70%, transparent 100%)`,
+          }}
+        >
+          {/* Head + shoulders silhouette */}
+          <svg viewBox="0 0 80 80" className="w-[70%] h-[70%] opacity-40" fill={silhouetteColor}>
+            <circle cx="40" cy="28" r="16" />
+            <ellipse cx="40" cy="68" rx="26" ry="18" />
+          </svg>
+        </div>
       </div>
 
       {/* Name banner */}
       <div
         className={cn(
-          "w-full text-center font-bold tracking-widest uppercase border-t border-b border-current/20 py-1",
-          sizeConfig.nameText,
-          textColor,
-          "bg-black/10"
+          "w-full text-center font-bold tracking-[0.15em] uppercase border-t border-b border-current/15",
+          s.name, textColor, "bg-black/10"
         )}
       >
         {player.name}
       </div>
 
       {/* Stats grid */}
-      <div className="w-full py-2">
-        <StatsGrid stats={stats} isGoalkeeper={player.isGoalkeeper} textColor={textColor} />
+      <div className="w-full py-[3%]">
+        <StatsGrid
+          stats={stats}
+          isGoalkeeper={player.isGoalkeeper}
+          textColor={textColor}
+          valueSize={s.statValue}
+          labelSize={s.statLabel}
+        />
       </div>
 
       {/* Footer */}
-      <div className={cn("text-[10px] font-semibold tracking-widest opacity-60 pb-8", textColor)}>
-        ⚽ {footerLabel}
+      <div className={cn("font-semibold tracking-[0.2em] opacity-50", s.footerText, textColor)}>
+        {footerLabel}
       </div>
     </CardBackground>
   );

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { FifaCard } from "@/components/fifa-card";
+import { DownloadableCard } from "@/components/downloadable-card";
 import { getPlayer, getPlayerGameweeks, getPlayerSpecialCards } from "@/lib/data";
 import { getPlayers } from "@/lib/data";
 import type { Player } from "@/lib/types";
@@ -79,7 +80,9 @@ export default async function PlayerDetailPage({
       <div className="flex flex-col md:flex-row gap-12">
         {/* Left: FIFA Card */}
         <div className="flex-shrink-0 flex justify-center">
-          <FifaCard player={player} size="lg" />
+          <DownloadableCard fileName={player.slug}>
+            <FifaCard player={player} size="lg" />
+          </DownloadableCard>
         </div>
 
         {/* Right: Stats */}
@@ -129,14 +132,16 @@ export default async function PlayerDetailPage({
           <div className="flex flex-wrap gap-6">
             {specialCards.map((sc, i) => (
               <div key={i} className="flex flex-col items-center gap-2">
-                <FifaCard
-                  player={player}
-                  specialType={sc.type}
-                  specialRating={sc.boostedRating}
-                  specialStats={sc.stats}
-                  specialTitle={sc.title}
-                  size="md"
-                />
+                <DownloadableCard fileName={`${player.slug}-${sc.type}`}>
+                  <FifaCard
+                    player={player}
+                    specialType={sc.type}
+                    specialRating={sc.boostedRating}
+                    specialStats={sc.stats}
+                    specialTitle={sc.title}
+                    size="md"
+                  />
+                </DownloadableCard>
                 <p className="text-zinc-400 text-xs text-center max-w-[240px]">{sc.description}</p>
               </div>
             ))}

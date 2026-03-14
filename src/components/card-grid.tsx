@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FifaCard } from "@/components/fifa-card";
+import { DownloadableCard } from "@/components/downloadable-card";
 import { Input } from "@/components/ui/input";
 import type { Player, CardTier } from "@/lib/types";
 
@@ -89,13 +90,14 @@ export function CardGrid({ players }: CardGridProps) {
       {/* Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 justify-items-center">
         {filtered.map((player) => (
-          <Link
-            key={player.slug}
-            href={`/cards/${player.slug}`}
-            className="hover:scale-105 transition-transform duration-200"
-          >
-            <FifaCard player={player} size="sm" />
-          </Link>
+          <DownloadableCard key={player.slug} fileName={player.slug}>
+            <Link
+              href={`/cards/${player.slug}`}
+              className="hover:scale-105 transition-transform duration-200"
+            >
+              <FifaCard player={player} size="sm" />
+            </Link>
+          </DownloadableCard>
         ))}
       </div>
     </div>

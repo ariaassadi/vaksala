@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FifaCard } from "@/components/fifa-card";
+import { DownloadableCard } from "@/components/downloadable-card";
 import { getSpecialCards, getPlayer } from "@/lib/data";
 import type { SpecialCardType } from "@/lib/types";
 
@@ -39,19 +40,21 @@ export default function SpecialPage() {
                 if (!player) return null;
                 return (
                   <div key={i} className="flex flex-col items-center gap-2">
-                    <Link
-                      href={`/cards/${sc.playerSlug}`}
-                      className="hover:scale-105 transition-transform duration-200"
-                    >
-                      <FifaCard
-                        player={player}
-                        specialType={sc.type}
-                        specialRating={sc.boostedRating}
-                        specialStats={sc.stats}
-                        specialTitle={sc.title}
-                        size="md"
-                      />
-                    </Link>
+                    <DownloadableCard fileName={`${sc.playerSlug}-${sc.type}`}>
+                      <Link
+                        href={`/cards/${sc.playerSlug}`}
+                        className="hover:scale-105 transition-transform duration-200"
+                      >
+                        <FifaCard
+                          player={player}
+                          specialType={sc.type}
+                          specialRating={sc.boostedRating}
+                          specialStats={sc.stats}
+                          specialTitle={sc.title}
+                          size="md"
+                        />
+                      </Link>
+                    </DownloadableCard>
                     <p className="text-zinc-400 text-xs text-center max-w-[240px]">
                       {sc.description}
                     </p>

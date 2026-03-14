@@ -6,17 +6,25 @@ interface StatsGridProps {
   stats: CardStats;
   isGoalkeeper: boolean;
   textColor?: string;
+  valueSize?: string;
+  labelSize?: string;
 }
 
-export function StatsGrid({ stats, isGoalkeeper, textColor = "text-current" }: StatsGridProps) {
+export function StatsGrid({
+  stats,
+  isGoalkeeper,
+  textColor = "text-current",
+  valueSize = "text-[15px]",
+  labelSize = "text-[8px]",
+}: StatsGridProps) {
   const labels = getStatLabels(isGoalkeeper);
   const values = [stats.points, stats.attendance, stats.goalsOrGA, stats.wins, stats.assistsOrCS, stats.losses];
   return (
-    <div className="grid grid-cols-2 gap-x-6 gap-y-1 w-full px-4">
+    <div className="grid grid-cols-2 gap-x-4 gap-y-0 w-full px-[12%]">
       {values.map((value, i) => (
-        <div key={labels[i]} className={cn("flex items-baseline gap-2", textColor)}>
-          <span className="text-lg font-bold tabular-nums">{value}</span>
-          <span className="text-xs font-medium opacity-80">{labels[i]}</span>
+        <div key={labels[i]} className={cn("flex items-baseline gap-1", textColor)}>
+          <span className={cn("font-bold tabular-nums leading-tight", valueSize)}>{value}</span>
+          <span className={cn("font-semibold opacity-70 tracking-wide", labelSize)}>{labels[i]}</span>
         </div>
       ))}
     </div>
