@@ -5,7 +5,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW16 (8G 7A)",
-    "boostedRating": 78,
+    "boostedRating": 76,
     "stats": {
       "points": 15,
       "attendance": 1,
@@ -21,7 +21,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW16 (9 goals)",
-    "boostedRating": 86,
+    "boostedRating": 70,
     "stats": {
       "points": 12,
       "attendance": 1,
@@ -37,7 +37,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW15 (6G 6A)",
-    "boostedRating": 82,
+    "boostedRating": 61,
     "stats": {
       "points": 12,
       "attendance": 1,
@@ -69,7 +69,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW16 (8 assists)",
-    "boostedRating": 81,
+    "boostedRating": 59,
     "stats": {
       "points": 9,
       "attendance": 1,
@@ -85,7 +85,7 @@
     "type": "motm",
     "title": "MOTM",
     "description": "Man of the Match - GW18 (5G 4A)",
-    "boostedRating": 82,
+    "boostedRating": 72,
     "stats": {
       "points": 9,
       "attendance": 1,
@@ -101,7 +101,7 @@
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW15-17 (18G 7A)",
-    "boostedRating": 87,
+    "boostedRating": 71,
     "stats": {
       "points": 25,
       "attendance": 3,
@@ -133,7 +133,7 @@
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW2-4 (18W 2L)",
-    "boostedRating": 83,
+    "boostedRating": 65,
     "stats": {
       "points": 18,
       "attendance": 3,
@@ -149,7 +149,7 @@
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW6-8 (8G 9A)",
-    "boostedRating": 87,
+    "boostedRating": 82,
     "stats": {
       "points": 17,
       "attendance": 3,
@@ -165,7 +165,7 @@
     "type": "totw",
     "title": "TOTW",
     "description": "Team of the Week - GW15-17 (10G 7A)",
-    "boostedRating": 79,
+    "boostedRating": 77,
     "stats": {
       "points": 17,
       "attendance": 3,
@@ -197,7 +197,7 @@
     "type": "rb",
     "title": "Record Breaker",
     "description": "Record Breaker - Best single GW (15 G+A in GW16)",
-    "boostedRating": 82,
+    "boostedRating": 80,
     "stats": {
       "points": 133,
       "attendance": 14,
@@ -213,7 +213,7 @@
     "type": "rb",
     "title": "Record Breaker",
     "description": "Record Breaker - Most goals in a single GW (9 in GW16)",
-    "boostedRating": 90,
+    "boostedRating": 74,
     "stats": {
       "points": 78,
       "attendance": 6,
@@ -229,7 +229,7 @@
     "type": "rb",
     "title": "Record Breaker",
     "description": "Record Breaker - Season assist leader (29)",
-    "boostedRating": 85,
+    "boostedRating": 76,
     "stats": {
       "points": 104,
       "attendance": 10,
@@ -245,7 +245,7 @@
     "type": "rb",
     "title": "Record Breaker",
     "description": "Record Breaker - Most GWs played as GK (14)",
-    "boostedRating": 89,
+    "boostedRating": 88,
     "stats": {
       "points": 146,
       "attendance": 14,
@@ -261,7 +261,7 @@
     "type": "rb",
     "title": "Record Breaker",
     "description": "Record Breaker - Most GWs attended (17)",
-    "boostedRating": 84,
+    "boostedRating": 87,
     "stats": {
       "points": 159,
       "attendance": 17,
@@ -293,7 +293,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Ivan N",
-    "boostedRating": 88,
+    "boostedRating": 83,
     "stats": {
       "points": 129,
       "attendance": 12,
@@ -309,7 +309,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Daniel Ö",
-    "boostedRating": 88,
+    "boostedRating": 72,
     "stats": {
       "points": 78,
       "attendance": 6,
@@ -325,7 +325,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Dennis F",
-    "boostedRating": 84,
+    "boostedRating": 74,
     "stats": {
       "points": 97,
       "attendance": 9,
@@ -341,7 +341,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Oliver G",
-    "boostedRating": 82,
+    "boostedRating": 85,
     "stats": {
       "points": 159,
       "attendance": 17,
@@ -357,7 +357,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Emil B",
-    "boostedRating": 87,
+    "boostedRating": 86,
     "stats": {
       "points": 146,
       "attendance": 14,
@@ -373,7 +373,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Daniel K",
-    "boostedRating": 80,
+    "boostedRating": 78,
     "stats": {
       "points": 133,
       "attendance": 14,
@@ -389,7 +389,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Samuel P",
-    "boostedRating": 83,
+    "boostedRating": 74,
     "stats": {
       "points": 104,
       "attendance": 10,
@@ -405,7 +405,7 @@
     "type": "tots",
     "title": "TOTS",
     "description": "Team of the Season - Milos G",
-    "boostedRating": 84,
+    "boostedRating": 63,
     "stats": {
       "points": 45,
       "attendance": 3,
@@ -421,7 +421,7 @@
     "type": "hero",
     "title": "Hero",
     "description": "Club Hero - Emil B (GK wall, 14 GWs)",
-    "boostedRating": 88,
+    "boostedRating": 87,
     "stats": {
       "points": 146,
       "attendance": 14,
@@ -437,7 +437,7 @@
     "type": "hero",
     "title": "Hero",
     "description": "Club Hero - Milos G (PPT king: 15.0)",
-    "boostedRating": 85,
+    "boostedRating": 64,
     "stats": {
       "points": 45,
       "attendance": 3,
@@ -453,7 +453,7 @@
     "type": "hero",
     "title": "Hero",
     "description": "Club Hero - Samuel P (29 assists)",
-    "boostedRating": 84,
+    "boostedRating": 75,
     "stats": {
       "points": 104,
       "attendance": 10,

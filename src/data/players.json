@@ -26,9 +26,9 @@
     "cleanSheets": 0,
     "points": 159,
     "ppt": 9.4,
-    "rating": 78,
+    "rating": 81,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "gold-rare",
     "imageUrl": "/players/Oliver G.png"
   },
   {
@@ -42,7 +42,7 @@
     "cleanSheets": 72,
     "points": 146,
     "ppt": 10.4,
-    "rating": 83,
+    "rating": 82,
     "isGoalkeeper": true,
     "tier": "gold-rare",
     "imageUrl": "/players/Emil B.png"
@@ -58,9 +58,9 @@
     "cleanSheets": 0,
     "points": 133,
     "ppt": 9.5,
-    "rating": 76,
+    "rating": 74,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "silver-rare",
     "imageUrl": "/players/Daniel K.png"
   },
   {
@@ -74,9 +74,9 @@
     "cleanSheets": 0,
     "points": 133,
     "ppt": 9.5,
-    "rating": 76,
+    "rating": 74,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "silver-rare",
     "imageUrl": "/players/Oskar R.png"
   },
   {
@@ -90,9 +90,9 @@
     "cleanSheets": 0,
     "points": 129,
     "ppt": 10.8,
-    "rating": 84,
+    "rating": 79,
     "isGoalkeeper": false,
-    "tier": "gold-rare",
+    "tier": "gold",
     "imageUrl": null
   },
   {
@@ -106,9 +106,9 @@
     "cleanSheets": 0,
     "points": 108,
     "ppt": 8.3,
-    "rating": 65,
+    "rating": 63,
     "isGoalkeeper": false,
-    "tier": "silver",
+    "tier": "bronze-rare",
     "imageUrl": "/players/Aria A.png"
   },
   {
@@ -122,9 +122,9 @@
     "cleanSheets": 0,
     "points": 104,
     "ppt": 10.4,
-    "rating": 79,
+    "rating": 70,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "silver-rare",
     "imageUrl": "/players/Samuel P.png"
   },
   {
@@ -138,9 +138,9 @@
     "cleanSheets": 6,
     "points": 97,
     "ppt": 10.8,
-    "rating": 80,
+    "rating": 70,
     "isGoalkeeper": false,
-    "tier": "gold-rare",
+    "tier": "silver-rare",
     "imageUrl": "/players/Dennis F.png"
   },
   {
@@ -154,9 +154,9 @@
     "cleanSheets": 0,
     "points": 92,
     "ppt": 7.7,
-    "rating": 60,
+    "rating": 56,
     "isGoalkeeper": false,
-    "tier": "bronze-rare",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -170,9 +170,9 @@
     "cleanSheets": 0,
     "points": 88,
     "ppt": 8.8,
-    "rating": 67,
+    "rating": 59,
     "isGoalkeeper": false,
-    "tier": "silver",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -186,9 +186,9 @@
     "cleanSheets": 0,
     "points": 78,
     "ppt": 13,
-    "rating": 84,
+    "rating": 68,
     "isGoalkeeper": false,
-    "tier": "gold-rare",
+    "tier": "silver",
     "imageUrl": null
   },
   {
@@ -202,7 +202,7 @@
     "cleanSheets": 6,
     "points": 71,
     "ppt": 7.9,
-    "rating": 59,
+    "rating": 51,
     "isGoalkeeper": true,
     "tier": "bronze",
     "imageUrl": "/players/Pontus S.png"
@@ -218,9 +218,25 @@
     "cleanSheets": 0,
     "points": 68,
     "ppt": 9.7,
-    "rating": 70,
+    "rating": 58,
     "isGoalkeeper": false,
-    "tier": "silver-rare",
+    "tier": "bronze",
+    "imageUrl": null
+  },
+  {
+    "name": "George T",
+    "slug": "george-t",
+    "goals": 6,
+    "assists": 9,
+    "wins": 26,
+    "losses": 21,
+    "attendance": 7,
+    "cleanSheets": 0,
+    "points": 63,
+    "ppt": 9,
+    "rating": 53,
+    "isGoalkeeper": false,
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -234,9 +250,9 @@
     "cleanSheets": 20,
     "points": 63,
     "ppt": 9,
-    "rating": 65,
+    "rating": 53,
     "isGoalkeeper": true,
-    "tier": "silver",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -250,9 +266,9 @@
     "cleanSheets": 0,
     "points": 62,
     "ppt": 8.9,
-    "rating": 64,
+    "rating": 53,
     "isGoalkeeper": false,
-    "tier": "bronze-rare",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -266,9 +282,9 @@
     "cleanSheets": 3,
     "points": 57,
     "ppt": 11.4,
-    "rating": 80,
+    "rating": 62,
     "isGoalkeeper": false,
-    "tier": "gold-rare",
+    "tier": "bronze-rare",
     "imageUrl": "/players/Branislav D.png"
   },
   {
@@ -282,9 +298,9 @@
     "cleanSheets": 0,
     "points": 48,
     "ppt": 9.6,
-    "rating": 67,
+    "rating": 52,
     "isGoalkeeper": false,
-    "tier": "silver",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -298,7 +314,7 @@
     "cleanSheets": 0,
     "points": 46,
     "ppt": 7.7,
-    "rating": 55,
+    "rating": 44,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -314,9 +330,9 @@
     "cleanSheets": 0,
     "points": 46,
     "ppt": 9.2,
-    "rating": 65,
+    "rating": 50,
     "isGoalkeeper": false,
-    "tier": "silver",
+    "tier": "bronze",
     "imageUrl": "/players/Eskil K.png"
   },
   {
@@ -330,9 +346,9 @@
     "cleanSheets": 0,
     "points": 45,
     "ppt": 15,
-    "rating": 80,
+    "rating": 59,
     "isGoalkeeper": false,
-    "tier": "gold-rare",
+    "tier": "bronze",
     "imageUrl": "/players/Milos G.png"
   },
   {
@@ -346,7 +362,7 @@
     "cleanSheets": 0,
     "points": 43,
     "ppt": 7.2,
-    "rating": 51,
+    "rating": 41,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": "/players/Benjamin L.png"
@@ -362,7 +378,7 @@
     "cleanSheets": 0,
     "points": 42,
     "ppt": 7,
-    "rating": 50,
+    "rating": 40,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": "/players/Albert A.png"
@@ -378,9 +394,9 @@
     "cleanSheets": 0,
     "points": 42,
     "ppt": 10.5,
-    "rating": 73,
+    "rating": 54,
     "isGoalkeeper": false,
-    "tier": "silver-rare",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -394,9 +410,9 @@
     "cleanSheets": 0,
     "points": 42,
     "ppt": 10.5,
-    "rating": 73,
+    "rating": 54,
     "isGoalkeeper": false,
-    "tier": "silver-rare",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -410,7 +426,7 @@
     "cleanSheets": 0,
     "points": 41,
     "ppt": 8.2,
-    "rating": 58,
+    "rating": 44,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -426,25 +442,9 @@
     "cleanSheets": 0,
     "points": 38,
     "ppt": 12.7,
-    "rating": 79,
+    "rating": 57,
     "isGoalkeeper": false,
-    "tier": "gold",
-    "imageUrl": null
-  },
-  {
-    "name": "George T",
-    "slug": "george-t",
-    "goals": 4,
-    "assists": 7,
-    "wins": 12,
-    "losses": 14,
-    "attendance": 4,
-    "cleanSheets": 0,
-    "points": 37,
-    "ppt": 9.3,
-    "rating": 64,
-    "isGoalkeeper": false,
-    "tier": "bronze-rare",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -458,9 +458,9 @@
     "cleanSheets": 23,
     "points": 37,
     "ppt": 12.3,
-    "rating": 79,
+    "rating": 57,
     "isGoalkeeper": true,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -474,9 +474,9 @@
     "cleanSheets": 0,
     "points": 35,
     "ppt": 11.7,
-    "rating": 79,
+    "rating": 56,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -490,9 +490,9 @@
     "cleanSheets": 0,
     "points": 34,
     "ppt": 11.3,
-    "rating": 77,
+    "rating": 55,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -506,7 +506,7 @@
     "cleanSheets": 0,
     "points": 34,
     "ppt": 8.5,
-    "rating": 59,
+    "rating": 44,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -522,9 +522,9 @@
     "cleanSheets": 0,
     "points": 26,
     "ppt": 13,
-    "rating": 78,
+    "rating": 54,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": "/players/Emil F.png"
   },
   {
@@ -538,24 +538,8 @@
     "cleanSheets": 9,
     "points": 18,
     "ppt": 9,
-    "rating": 60,
+    "rating": 41,
     "isGoalkeeper": true,
-    "tier": "bronze-rare",
-    "imageUrl": null
-  },
-  {
-    "name": "George",
-    "slug": "george",
-    "goals": 1,
-    "assists": 1,
-    "wins": 9,
-    "losses": 6,
-    "attendance": 2,
-    "cleanSheets": 0,
-    "points": 17,
-    "ppt": 8.5,
-    "rating": 57,
-    "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
   },
@@ -570,7 +554,7 @@
     "cleanSheets": 0,
     "points": 17,
     "ppt": 5.7,
-    "rating": 39,
+    "rating": 28,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -586,9 +570,9 @@
     "cleanSheets": 0,
     "points": 16,
     "ppt": 16,
-    "rating": 77,
+    "rating": 51,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -602,9 +586,9 @@
     "cleanSheets": 0,
     "points": 15,
     "ppt": 15,
-    "rating": 77,
+    "rating": 51,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -618,9 +602,9 @@
     "cleanSheets": 0,
     "points": 13,
     "ppt": 13,
-    "rating": 77,
+    "rating": 51,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -634,9 +618,9 @@
     "cleanSheets": 0,
     "points": 12,
     "ppt": 12,
-    "rating": 76,
+    "rating": 50,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -650,9 +634,9 @@
     "cleanSheets": 0,
     "points": 12,
     "ppt": 12,
-    "rating": 76,
+    "rating": 50,
     "isGoalkeeper": false,
-    "tier": "gold",
+    "tier": "bronze",
     "imageUrl": "/players/Magnus D.png"
   },
   {
@@ -666,25 +650,9 @@
     "cleanSheets": 0,
     "points": 11,
     "ppt": 11,
-    "rating": 72,
+    "rating": 48,
     "isGoalkeeper": false,
-    "tier": "silver-rare",
-    "imageUrl": null
-  },
-  {
-    "name": "Georgios T",
-    "slug": "georgios-t",
-    "goals": 1,
-    "assists": 1,
-    "wins": 5,
-    "losses": 1,
-    "attendance": 1,
-    "cleanSheets": 0,
-    "points": 10,
-    "ppt": 10,
-    "rating": 66,
-    "isGoalkeeper": false,
-    "tier": "silver",
+    "tier": "bronze",
     "imageUrl": null
   },
   {
@@ -698,7 +666,7 @@
     "cleanSheets": 0,
     "points": 8,
     "ppt": 8,
-    "rating": 53,
+    "rating": 35,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": "/players/Mattias R.png"
@@ -714,7 +682,7 @@
     "cleanSheets": 0,
     "points": 8,
     "ppt": 8,
-    "rating": 53,
+    "rating": 35,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -730,7 +698,7 @@
     "cleanSheets": 0,
     "points": 7,
     "ppt": 7,
-    "rating": 46,
+    "rating": 30,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -746,7 +714,7 @@
     "cleanSheets": 0,
     "points": 7,
     "ppt": 7,
-    "rating": 46,
+    "rating": 30,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": "/players/Immanuel A.png"
@@ -762,7 +730,7 @@
     "cleanSheets": 0,
     "points": 7,
     "ppt": 7,
-    "rating": 46,
+    "rating": 30,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -778,7 +746,7 @@
     "cleanSheets": 0,
     "points": 7,
     "ppt": 7,
-    "rating": 46,
+    "rating": 30,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -794,7 +762,7 @@
     "cleanSheets": 0,
     "points": 7,
     "ppt": 7,
-    "rating": 46,
+    "rating": 30,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -810,7 +778,7 @@
     "cleanSheets": 0,
     "points": 6,
     "ppt": 6,
-    "rating": 40,
+    "rating": 26,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
@@ -826,7 +794,7 @@
     "cleanSheets": 0,
     "points": 5,
     "ppt": 5,
-    "rating": 33,
+    "rating": 22,
     "isGoalkeeper": false,
     "tier": "bronze",
     "imageUrl": null
